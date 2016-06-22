@@ -1,0 +1,154 @@
+EESchema Schematic File Version 2
+LIBS:Microcontroladores
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Interfaces
+LIBS:Pasivos
+LIBS:Reles
+LIBS:MotorDrivers
+LIBS:connector
+LIBS:ATMEGA328_Motor_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR046
+U 1 1 5768B46A
+P 1550 2150
+F 0 "#PWR046" H 1550 1900 50  0001 C CNN
+F 1 "GND" H 1555 1977 50  0000 C CNN
+F 2 "" H 1550 2150 50  0000 C CNN
+F 3 "" H 1550 2150 50  0000 C CNN
+	1    1550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG047
+U 1 1 5768B47E
+P 1550 1950
+F 0 "#FLG047" H 1550 2045 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 2174 50  0000 C CNN
+F 2 "" H 1550 1950 50  0000 C CNN
+F 3 "" H 1550 1950 50  0000 C CNN
+	1    1550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1950 1550 2150
+$Comp
+L PWR_FLAG #FLG048
+U 1 1 5768B492
+P 1900 2100
+F 0 "#FLG048" H 1900 2195 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 2323 50  0000 C CNN
+F 2 "" H 1900 2100 50  0000 C CNN
+F 3 "" H 1900 2100 50  0000 C CNN
+	1    1900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR049
+U 1 1 5768B49F
+P 1900 1900
+F 0 "#PWR049" H 1900 1750 50  0001 C CNN
+F 1 "+5V" H 1915 2073 50  0000 C CNN
+F 2 "" H 1900 1900 50  0000 C CNN
+F 3 "" H 1900 1900 50  0000 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1900 1900 2100
+$Comp
+L VSS #PWR050
+U 1 1 576A7AE8
+P 2200 1900
+F 0 "#PWR050" H 2200 1750 50  0001 C CNN
+F 1 "VSS" H 2217 2073 50  0000 C CNN
+F 2 "" H 2200 1900 50  0000 C CNN
+F 3 "" H 2200 1900 50  0000 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG051
+U 1 1 576A7AFA
+P 2200 2100
+F 0 "#FLG051" H 2200 2195 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 2323 50  0000 C CNN
+F 2 "" H 2200 2100 50  0000 C CNN
+F 3 "" H 2200 2100 50  0000 C CNN
+	1    2200 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2100 2200 1900
+$Comp
+L D D19
+U 1 1 576A8276
+P 3350 3000
+F 0 "D19" H 3350 3215 50  0000 C CNN
+F 1 "D" H 3350 3124 50  0000 C CNN
+F 2 "" H 3350 3000 50  0000 C CNN
+F 3 "" H 3350 3000 50  0000 C CNN
+	1    3350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3000 3750 3000
+Wire Wire Line
+	3200 3000 2950 3000
+Wire Wire Line
+	2950 3000 2950 2900
+$Comp
+L +5V #PWR052
+U 1 1 576A82A8
+P 2950 2900
+F 0 "#PWR052" H 2950 2750 50  0001 C CNN
+F 1 "+5V" H 2965 3073 50  0000 C CNN
+F 2 "" H 2950 2900 50  0000 C CNN
+F 3 "" H 2950 2900 50  0000 C CNN
+	1    2950 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 3000 2    60   Input ~ 0
+VUSB
+$EndSCHEMATC
