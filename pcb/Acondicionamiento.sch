@@ -1,0 +1,267 @@
+EESchema Schematic File Version 2
+LIBS:ATMEGA328_Motor_Board-rescue
+LIBS:Microcontroladores
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Interfaces
+LIBS:Pasivos
+LIBS:Reles
+LIBS:MotorDrivers
+LIBS:connector
+LIBS:Opamp
+LIBS:ATMEGA328_Motor_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_OPAM U5
+U 1 1 576D53A4
+P 3750 3000
+F 0 "U5" H 3850 3150 50  0000 L CNN
+F 1 "LM2903" H 3850 2850 50  0000 L CNN
+F 2 "" H 3810 3000 50  0000 C CNN
+F 3 "" H 3810 3000 50  0000 C CNN
+F 4 "ti" H 3750 3000 60  0001 C CNN "Fabricante"
+F 5 "LM2903PWR" H 3750 3000 60  0001 C CNN "Ref"
+F 6 "~" H 3750 3000 60  0001 C CNN "Potencia"
+F 7 "~" H 3750 3000 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 3750 3000 60  0001 C CNN "Provedor"
+F 9 "LM2903PWR" H 3750 3000 60  0001 C CNN "Ref_Proveedor"
+	1    3750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 576D58AF
+P 3750 3850
+F 0 "R16" V 3543 3850 50  0000 C CNN
+F 1 "R" V 3634 3850 50  0000 C CNN
+F 2 "" V 3680 3850 50  0000 C CNN
+F 3 "" H 3750 3850 50  0000 C CNN
+	1    3750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R14
+U 1 1 576D59D1
+P 2950 3850
+F 0 "R14" V 2743 3850 50  0000 C CNN
+F 1 "R" V 2834 3850 50  0000 C CNN
+F 2 "" V 2880 3850 50  0000 C CNN
+F 3 "" H 2950 3850 50  0000 C CNN
+	1    2950 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3000 4850 3000
+Wire Wire Line
+	4350 3000 4350 3850
+Wire Wire Line
+	4350 3850 3900 3850
+Wire Wire Line
+	3100 3850 3600 3850
+Wire Wire Line
+	3350 3850 3350 3100
+Wire Wire Line
+	3350 3100 3500 3100
+Connection ~ 3350 3850
+Wire Wire Line
+	2600 3850 2800 3850
+Wire Wire Line
+	2600 3850 2600 4050
+$Comp
+L GND #PWR060
+U 1 1 576D5A93
+P 2600 4050
+F 0 "#PWR060" H 2600 3800 50  0001 C CNN
+F 1 "GND" H 2605 3877 50  0000 C CNN
+F 2 "" H 2600 4050 50  0000 C CNN
+F 3 "" H 2600 4050 50  0000 C CNN
+	1    2600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2900 3050 2900
+$Comp
+L R R17
+U 1 1 576D6043
+P 3750 5700
+F 0 "R17" V 3543 5700 50  0000 C CNN
+F 1 "R" V 3634 5700 50  0000 C CNN
+F 2 "" V 3680 5700 50  0000 C CNN
+F 3 "" H 3750 5700 50  0000 C CNN
+	1    3750 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 576D6049
+P 2950 5700
+F 0 "R15" V 2743 5700 50  0000 C CNN
+F 1 "R" V 2834 5700 50  0000 C CNN
+F 2 "" V 2880 5700 50  0000 C CNN
+F 3 "" H 2950 5700 50  0000 C CNN
+	1    2950 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 4850 4850 4850
+Wire Wire Line
+	4350 4850 4350 5700
+Wire Wire Line
+	4350 5700 3900 5700
+Wire Wire Line
+	3100 5700 3600 5700
+Wire Wire Line
+	3350 5700 3350 4950
+Wire Wire Line
+	3350 4950 3500 4950
+Connection ~ 3350 5700
+Wire Wire Line
+	2600 5700 2800 5700
+Wire Wire Line
+	2600 5700 2600 5900
+$Comp
+L GND #PWR061
+U 1 1 576D6058
+P 2600 5900
+F 0 "#PWR061" H 2600 5650 50  0001 C CNN
+F 1 "GND" H 2605 5727 50  0000 C CNN
+F 2 "" H 2600 5900 50  0000 C CNN
+F 3 "" H 2600 5900 50  0000 C CNN
+	1    2600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4750 3050 4750
+$Comp
+L D_OPAM U5
+U 2 1 576D607F
+P 3750 4850
+F 0 "U5" H 3850 5000 50  0000 L CNN
+F 1 "LM2903" H 3850 4700 50  0000 L CNN
+F 2 "" H 3800 4850 50  0000 C CNN
+F 3 "" H 3800 4850 50  0000 C CNN
+F 4 "ti" H 3750 4850 60  0001 C CNN "Fabricante"
+F 5 "~" H 3750 4850 60  0001 C CNN "Ref"
+F 6 "~" H 3750 4850 60  0001 C CNN "Potencia"
+F 7 "~" H 3750 4850 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 3750 4850 60  0001 C CNN "Provedor"
+F 9 "LM2903PWR" H 3750 4850 60  0001 C CNN "Ref_Proveedor"
+	2    3750 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 2900 0    60   Input ~ 0
+MOTOR1_SENSE
+Text GLabel 3050 4750 0    60   Input ~ 0
+MOTOR2_SENSE
+$Comp
+L C C10
+U 1 1 576D68BB
+P 4000 2350
+F 0 "C10" H 4115 2396 50  0000 L CNN
+F 1 "100n" H 4115 2305 50  0000 L CNN
+F 2 "" H 4038 2200 50  0000 C CNN
+F 3 "" H 4000 2350 50  0000 C CNN
+F 4 "avx" H 4000 2350 60  0001 C CNN "Fabricante"
+F 5 "08055C104K4T2A" H 4000 2350 60  0001 C CNN "Ref"
+F 6 "~" H 4000 2350 60  0001 C CNN "Potencia"
+F 7 "~" H 4000 2350 60  0001 C CNN "Tolerancia"
+F 8 "08055C104K4T2A" H 4000 2350 60  0001 C CNN "tme"
+F 9 "~" H 4000 2350 60  0001 C CNN "Ref_Proveedor"
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR062
+U 1 1 576D692F
+P 4050 3400
+F 0 "#PWR062" H 4050 3150 50  0001 C CNN
+F 1 "GND" H 4055 3227 50  0000 C CNN
+F 2 "" H 4050 3400 50  0000 C CNN
+F 3 "" H 4050 3400 50  0000 C CNN
+	1    4050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3300 3750 3350
+Wire Wire Line
+	3750 3350 4050 3350
+Wire Wire Line
+	4050 3350 4050 3400
+$Comp
+L GND #PWR063
+U 1 1 576D69E8
+P 4000 2600
+F 0 "#PWR063" H 4000 2350 50  0001 C CNN
+F 1 "GND" H 4005 2427 50  0000 C CNN
+F 2 "" H 4000 2600 50  0000 C CNN
+F 3 "" H 4000 2600 50  0000 C CNN
+	1    4000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2500 4000 2600
+Wire Wire Line
+	4000 2200 4000 2150
+Wire Wire Line
+	4000 2150 3750 2150
+Wire Wire Line
+	3750 2000 3750 2700
+$Comp
+L +5V #PWR064
+U 1 1 576D6A66
+P 3750 2000
+F 0 "#PWR064" H 3750 1850 50  0001 C CNN
+F 1 "+5V" H 3765 2173 50  0000 C CNN
+F 2 "" H 3750 2000 50  0000 C CNN
+F 3 "" H 3750 2000 50  0000 C CNN
+	1    3750 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 2150
+Connection ~ 4350 3000
+Connection ~ 4350 4850
+Text GLabel 4850 3000 2    60   Output ~ 0
+MOTOR1_CURRENT
+Text GLabel 4850 4850 2    60   Output ~ 0
+MOTOR2_CURRENT
+$EndSCHEMATC
