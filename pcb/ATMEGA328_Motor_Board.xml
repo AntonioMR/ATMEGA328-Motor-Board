@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board.sch</source>
-    <date>dom 26 jun 2016 03:11:02 CEST</date>
+    <date>dom 26 jun 2016 16:37:01 CEST</date>
     <tool>Eeschema 4.1.0-alpha+201606180818+6940~45~ubuntu14.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2104,14 +2104,20 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="ATMEGA328_Motor_Board-rescue">
+      <uri>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board-rescue.lib</uri>
+    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="Reles">
-      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Reles.lib</uri>
-    </library>
     <library logical="Interfaces">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Interfaces.lib</uri>
+    </library>
+    <library logical="Reles">
+      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Reles.lib</uri>
     </library>
     <library logical="Pasivos">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Pasivos.lib</uri>
@@ -2119,20 +2125,14 @@
     <library logical="MotorDrivers">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/MotorDrivers.lib</uri>
     </library>
-    <library logical="Opamp">
-      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Opamp.lib</uri>
-    </library>
     <library logical="connector">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/connector.lib</uri>
     </library>
     <library logical="Traco">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Traco.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="ATMEGA328_Motor_Board-rescue">
-      <uri>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board-rescue.lib</uri>
+    <library logical="Opamp">
+      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Opamp.lib</uri>
     </library>
   </libraries>
   <nets>

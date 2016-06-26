@@ -1,4 +1,4 @@
-update=dom 26 jun 2016 00:40:57 CEST
+update=lun 27 jun 2016 01:36:09 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -67,3 +65,5 @@ LibName35=/home/amr/Documentos/KiCad/kicad-libraries/MotorDrivers
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/connector
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Opamp
 LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Traco
+[general]
+version=1
