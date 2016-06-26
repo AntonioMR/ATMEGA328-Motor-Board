@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board.sch</source>
-    <date>dom 26 jun 2016 16:37:01 CEST</date>
+    <date>lun 27 jun 2016 01:39:47 CEST</date>
     <tool>Eeschema 4.1.0-alpha+201606180818+6940~45~ubuntu14.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -86,6 +86,7 @@
   <components>
     <comp ref="U1">
       <value>ATMEGA328</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
       <fields>
         <field name="Fabricante">atmel</field>
         <field name="Ref">ATMEGA328P-AU</field>
@@ -98,6 +99,7 @@
     </comp>
     <comp ref="U3">
       <value>FT231X</value>
+      <footprint>Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
       <fields>
         <field name="Fabricante">ftdi</field>
         <field name="Ref">FT231XS-R</field>
@@ -119,42 +121,73 @@
       <tstamp>57689A0E</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
-      <fields/>
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>57689BE2</tstamp>
     </comp>
     <comp ref="R5">
-      <value>R</value>
-      <fields/>
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>57689C44</tstamp>
     </comp>
     <comp ref="R6">
-      <value>R</value>
-      <fields/>
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>57689CF5</tstamp>
     </comp>
     <comp ref="C2">
-      <value>C</value>
-      <fields/>
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">avx</field>
+        <field name="Ref">08055C104K4T2A</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">08055C104K4T2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>57689E66</tstamp>
     </comp>
     <comp ref="C8">
-      <value>C</value>
-      <fields/>
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>5768A409</tstamp>
     </comp>
     <comp ref="R7">
       <value>270</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW0805270RFKTABC</field>
@@ -167,6 +200,7 @@
     </comp>
     <comp ref="R8">
       <value>270</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW0805270RFKTABC</field>
@@ -203,59 +237,101 @@
     </comp>
     <comp ref="C7">
       <value>100n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576DC357</tstamp>
     </comp>
     <comp ref="C5">
       <value>100n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576DDCCD</tstamp>
     </comp>
     <comp ref="U2">
       <value>PCA9685</value>
+      <footprint>Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm</footprint>
       <libsource lib="Interfaces" part="PCA9685"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576E00AE</tstamp>
     </comp>
     <comp ref="R2">
       <value>1K</value>
-      <fields/>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F3A72</tstamp>
     </comp>
     <comp ref="R3">
       <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW08051K00FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW08051K00FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F3AF2</tstamp>
     </comp>
     <comp ref="R4">
       <value>10K</value>
-      <fields/>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">vishay</field>
+        <field name="Ref">CRCW080510K0FKEA</field>
+        <field name="Potencia">0.125W</field>
+        <field name="Tolerancia">1%</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW080510K0FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F3B45</tstamp>
     </comp>
     <comp ref="C4">
       <value>100n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">avx</field>
+        <field name="Ref">08055C104K4T2A</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">08055C104K4T2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F44CB</tstamp>
     </comp>
     <comp ref="SW1">
       <value>Pulsador_4p</value>
+      <footprint>Relays_and_Contacts:ALP_SKQGAKE010</footprint>
       <libsource lib="Reles" part="Pulsador_4p"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576FB09C</tstamp>
     </comp>
     <comp ref="C1">
       <value>4,7u</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">TAJD475K050RNJ</field>
@@ -267,19 +343,29 @@
       <tstamp>576F1CB0</tstamp>
     </comp>
     <comp ref="C6">
-      <value>CP</value>
+      <value>4,7u</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F1DF7</tstamp>
     </comp>
     <comp ref="C3">
-      <value>CP</value>
+      <value>4,7u</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <fields>
+        <field name="Fabricante">avx</field>
+        <field name="Ref">TAJD475K050RNJ</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">TAJD475K050R</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F1FE1</tstamp>
     </comp>
     <comp ref="U4">
       <value>L298</value>
+      <footprint>MotorDrivers:L298_Multiwatt15V</footprint>
       <fields>
         <field name="Fabricante">st</field>
         <field name="Ref">L298N</field>
@@ -292,6 +378,7 @@
     </comp>
     <comp ref="U5">
       <value>L298</value>
+      <footprint>MotorDrivers:L298_Multiwatt15V</footprint>
       <fields>
         <field name="Fabricante">st</field>
         <field name="Ref">L298N</field>
@@ -304,6 +391,7 @@
     </comp>
     <comp ref="C15">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -316,6 +404,7 @@
     </comp>
     <comp ref="C22">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -328,6 +417,7 @@
     </comp>
     <comp ref="C20">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -340,6 +430,7 @@
     </comp>
     <comp ref="C13">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -351,7 +442,8 @@
       <tstamp>5769B0F4</tstamp>
     </comp>
     <comp ref="R15">
-      <value>R</value>
+      <value>0.02</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
       <fields>
         <field name="Fabricante">walsin</field>
         <field name="Ref">WW12DR020FTL</field>
@@ -365,7 +457,8 @@
       <tstamp>5769B408</tstamp>
     </comp>
     <comp ref="R16">
-      <value>R</value>
+      <value>0.02</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
       <fields>
         <field name="Fabricante">walsin</field>
         <field name="Ref">WW12DR020FTL</field>
@@ -379,7 +472,8 @@
       <tstamp>5769B45B</tstamp>
     </comp>
     <comp ref="R23">
-      <value>R</value>
+      <value>0.02</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
       <fields>
         <field name="Fabricante">walsin</field>
         <field name="Ref">WW12DR020FTL</field>
@@ -393,7 +487,8 @@
       <tstamp>5769B48F</tstamp>
     </comp>
     <comp ref="R24">
-      <value>R</value>
+      <value>0.02</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
       <fields>
         <field name="Fabricante">walsin</field>
         <field name="Ref">WW12DR020FTL</field>
@@ -505,6 +600,8 @@
     <comp ref="C14">
       <value>470u</value>
       <fields>
+        <field name="Fabricante">PANASONIC</field>
+        <field name="Ref">EEVFK1J471M</field>
         <field name="Provedor">tme</field>
         <field name="Ref_Proveedor">EEVFK1J471M</field>
       </fields>
@@ -514,6 +611,7 @@
     </comp>
     <comp ref="R9">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -528,6 +626,7 @@
     </comp>
     <comp ref="R10">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -648,6 +747,7 @@
     </comp>
     <comp ref="R21">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -662,6 +762,7 @@
     </comp>
     <comp ref="R22">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -712,6 +813,7 @@
     </comp>
     <comp ref="C9">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -724,6 +826,7 @@
     </comp>
     <comp ref="R11">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -750,6 +853,7 @@
     </comp>
     <comp ref="C10">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -762,6 +866,7 @@
     </comp>
     <comp ref="R12">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -788,6 +893,7 @@
     </comp>
     <comp ref="C11">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -800,6 +906,7 @@
     </comp>
     <comp ref="R13">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -826,6 +933,7 @@
     </comp>
     <comp ref="C12">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -838,6 +946,7 @@
     </comp>
     <comp ref="R14">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -864,6 +973,7 @@
     </comp>
     <comp ref="C16">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -876,6 +986,7 @@
     </comp>
     <comp ref="R17">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -902,6 +1013,7 @@
     </comp>
     <comp ref="C17">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -914,6 +1026,7 @@
     </comp>
     <comp ref="R18">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -940,6 +1053,7 @@
     </comp>
     <comp ref="C18">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -952,6 +1066,7 @@
     </comp>
     <comp ref="R19">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -978,6 +1093,7 @@
     </comp>
     <comp ref="C19">
       <value>1,5n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C152KAT2A</field>
@@ -990,6 +1106,7 @@
     </comp>
     <comp ref="R20">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1107,12 +1224,26 @@
     </comp>
     <comp ref="R25">
       <value>22R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW080522R0FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW080522R0FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576DCCC2</tstamp>
     </comp>
     <comp ref="R26">
       <value>22R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Fabricante">VISHAY</field>
+        <field name="Ref">CRCW080522R0FKEA</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CRCW080522R0FKEA</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576DCD2B</tstamp>
@@ -1131,21 +1262,38 @@
     </comp>
     <comp ref="C28">
       <value>0,047n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">SAMSUNG</field>
+        <field name="Ref">CL21C470JBANNNC</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CL21C470JBANNNC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576DD705</tstamp>
     </comp>
     <comp ref="C29">
       <value>0,047n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Ref">CL21C470JBANNNC</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CL21C470JBANNNC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576DD864</tstamp>
     </comp>
     <comp ref="C27">
       <value>10n</value>
-      <fields/>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Fabricante">SAMSUNG</field>
+        <field name="Ref">CL21B103JBANNNC</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">CL21B103JBANNNC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576DE22A</tstamp>
@@ -1166,6 +1314,7 @@
     </comp>
     <comp ref="C23">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1173,6 +1322,7 @@
     </comp>
     <comp ref="C24">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1180,6 +1330,7 @@
     </comp>
     <comp ref="C25">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1187,6 +1338,7 @@
     </comp>
     <comp ref="C26">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1213,6 +1365,7 @@
     </comp>
     <comp ref="U6">
       <value>TSR_1</value>
+      <footprint>Traco:TSR-1</footprint>
       <fields>
         <field name="Fabricante">TRACOPOWER</field>
         <field name="Ref">TSR 1-2450</field>
@@ -1236,19 +1389,34 @@
       <tstamp>576F1664</tstamp>
     </comp>
     <comp ref="C31">
-      <value>CP</value>
+      <value>4,7u</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <fields>
+        <field name="Fabricante">AVX</field>
+        <field name="Ref">TAJD475K050R</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">TAJD475K050R</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Alimentacion/" tstamps="/576897B7/"/>
       <tstamp>576F1971</tstamp>
     </comp>
     <comp ref="C30">
-      <value>CP</value>
+      <value>4,7u</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <fields>
+        <field name="Fabricante">AVX</field>
+        <field name="Ref">TAJD475K050R</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">TAJD475K050R</field>
+      </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Alimentacion/" tstamps="/576897B7/"/>
       <tstamp>576F199B</tstamp>
     </comp>
     <comp ref="U7">
       <value>LM2903</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
         <field name="Fabricante">ti</field>
         <field name="Ref">LM2903PWR</field>
@@ -1261,6 +1429,7 @@
     </comp>
     <comp ref="R29">
       <value>23K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080523K2FKTABC</field>
@@ -1273,6 +1442,7 @@
     </comp>
     <comp ref="R27">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1287,6 +1457,7 @@
     </comp>
     <comp ref="R30">
       <value>23K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080523K2FKTABC</field>
@@ -1299,6 +1470,7 @@
     </comp>
     <comp ref="R28">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1313,6 +1485,7 @@
     </comp>
     <comp ref="C32">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -1324,6 +1497,7 @@
     </comp>
     <comp ref="U8">
       <value>LM2903</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
         <field name="Fabricante">ti</field>
         <field name="Ref">LM2903PWR</field>
@@ -1336,6 +1510,7 @@
     </comp>
     <comp ref="R37">
       <value>23K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080523K2FKTABC</field>
@@ -1348,6 +1523,7 @@
     </comp>
     <comp ref="R35">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1362,6 +1538,7 @@
     </comp>
     <comp ref="R38">
       <value>23K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080523K2FKTABC</field>
@@ -1374,6 +1551,7 @@
     </comp>
     <comp ref="R36">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1388,6 +1566,7 @@
     </comp>
     <comp ref="C33">
       <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">08055C104K4T2A</field>
@@ -1447,6 +1626,7 @@
     </comp>
     <comp ref="R31">
       <value>38K3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080538K3FKTABC</field>
@@ -1459,6 +1639,7 @@
     </comp>
     <comp ref="R33">
       <value>38K3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080538K3FKTABC</field>
@@ -1471,6 +1652,7 @@
     </comp>
     <comp ref="R32">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1485,6 +1667,7 @@
     </comp>
     <comp ref="R34">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1523,6 +1706,7 @@
     </comp>
     <comp ref="R39">
       <value>38K3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080538K3FKTABC</field>
@@ -1535,6 +1719,7 @@
     </comp>
     <comp ref="R41">
       <value>38K3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">VISHAY</field>
         <field name="Ref">CRCW080538K3FKTABC</field>
@@ -1547,6 +1732,7 @@
     </comp>
     <comp ref="R40">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -1561,6 +1747,7 @@
     </comp>
     <comp ref="R42">
       <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">CRCW080510K0FKEA</field>
@@ -2104,11 +2291,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="ATMEGA328_Motor_Board-rescue">
       <uri>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
@@ -2128,11 +2315,11 @@
     <library logical="connector">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/connector.lib</uri>
     </library>
-    <library logical="Traco">
-      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Traco.lib</uri>
-    </library>
     <library logical="Opamp">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Opamp.lib</uri>
+    </library>
+    <library logical="Traco">
+      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Traco.lib</uri>
     </library>
   </libraries>
   <nets>
