@@ -36,6 +36,7 @@ LIBS:Reles
 LIBS:MotorDrivers
 LIBS:connector
 LIBS:Opamp
+LIBS:Traco
 LIBS:ATMEGA328_Motor_Board-cache
 EELAYER 25 0
 EELAYER END

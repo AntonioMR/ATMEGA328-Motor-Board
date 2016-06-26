@@ -1,4 +1,4 @@
-update=vie 24 jun 2016 16:29:33 CEST
+update=dom 26 jun 2016 00:40:57 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=/home/amr/Documentos/KiCad/kicad-libraries/Reles
 LibName35=/home/amr/Documentos/KiCad/kicad-libraries/MotorDrivers
 LibName36=/home/amr/Documentos/KiCad/kicad-libraries/connector
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Opamp
+LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Traco
