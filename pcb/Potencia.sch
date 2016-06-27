@@ -52,40 +52,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L L298 U4
-U 1 1 5768BA06
-P 2350 3650
-F 0 "U4" H 2900 4400 60  0000 C CNN
-F 1 "L298" H 2900 4550 60  0000 C CNN
-F 2 "MotorDrivers:L298_Multiwatt15V" H 2350 3650 60  0001 C CNN
-F 3 "" H 2350 3650 60  0000 C CNN
-F 4 "st" H 2000 1500 60  0001 C CNN "Fabricante"
-F 5 "L298N" H 2000 1500 60  0001 C CNN "Ref"
-F 6 "~" H 2000 1500 60  0001 C CNN "Potencia"
-F 7 "~" H 2000 1500 60  0001 C CNN "Tolerancia"
-F 8 "tme" H 2000 1500 60  0001 C CNN "Provedor"
-F 9 "L298N" H 2000 1500 60  0001 C CNN "Ref_Proveedor"
-	1    2350 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L L298 U5
-U 1 1 5768BB47
-P 7500 3650
-F 0 "U5" H 8050 4400 60  0000 C CNN
-F 1 "L298" H 8050 4550 60  0000 C CNN
-F 2 "MotorDrivers:L298_Multiwatt15V" H 7500 3650 60  0001 C CNN
-F 3 "" H 7500 3650 60  0000 C CNN
-F 4 "st" H 1800 1500 60  0001 C CNN "Fabricante"
-F 5 "L298N" H 1800 1500 60  0001 C CNN "Ref"
-F 6 "~" H 1800 1500 60  0001 C CNN "Potencia"
-F 7 "~" H 1800 1500 60  0001 C CNN "Tolerancia"
-F 8 "tme" H 1800 1500 60  0001 C CNN "Provedor"
-F 9 "L298N" H 1800 1500 60  0001 C CNN "Ref_Proveedor"
-	1    7500 3650
-	1    0    0    -1  
-$EndComp
 Text GLabel 5050 3100 2    60   Input ~ 0
 Motor2-
 Text GLabel 5050 2950 2    60   Input ~ 0
@@ -1802,6 +1768,40 @@ F 1 "VSS" H 8017 1123 50  0000 C CNN
 F 2 "" H 8000 950 50  0000 C CNN
 F 3 "" H 8000 950 50  0000 C CNN
 	1    8000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L L298_SO U4
+U 1 1 5771BE9E
+P 2350 3650
+F 0 "U4" H 2450 5350 60  0000 C CNN
+F 1 "L298P" H 2900 4500 60  0000 C CNN
+F 2 "MotorDrivers:L298_PowerSO20" H 2350 3650 60  0001 C CNN
+F 3 "" H 2350 3650 60  0000 C CNN
+F 4 "ST" H 2350 3650 60  0001 C CNN "Fabricante"
+F 5 "L298P" H 2350 3650 60  0001 C CNN "Ref"
+F 6 "~" H 2350 3650 60  0001 C CNN "Potencia"
+F 7 "~" H 2350 3650 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 2350 3650 60  0001 C CNN "Provedor"
+F 9 "L298P" H 2350 3650 60  0001 C CNN "Ref_Proveedor"
+	1    2350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L L298_SO U5
+U 1 1 5771C16D
+P 7500 3650
+F 0 "U5" H 7600 5350 60  0000 C CNN
+F 1 "L298P" H 8050 4500 60  0000 C CNN
+F 2 "MotorDrivers:L298_PowerSO20" H 7500 3650 60  0001 C CNN
+F 3 "" H 7500 3650 60  0000 C CNN
+F 4 "ST" H 7500 3650 60  0001 C CNN "Fabricante"
+F 5 "L298P" H 7500 3650 60  0001 C CNN "Ref"
+F 6 "~" H 7500 3650 60  0001 C CNN "Potencia"
+F 7 "~" H 7500 3650 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 7500 3650 60  0001 C CNN "Provedor"
+F 9 "L298P" H 7500 3650 60  0001 C CNN "Ref_Proveedor"
+	1    7500 3650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
