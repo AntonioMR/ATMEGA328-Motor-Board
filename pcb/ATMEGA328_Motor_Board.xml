@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/amr/Documentos/KiCad/ATMEGA328-Motor-Board/pcb/ATMEGA328_Motor_Board.sch</source>
-    <date>lun 27 jun 2016 01:39:47 CEST</date>
-    <tool>Eeschema 4.1.0-alpha+201606180818+6940~45~ubuntu14.04.1-product</tool>
+    <date>lun 04 jul 2016 00:09:52 CEST</date>
+    <tool>Eeschema 4.1.0-alpha+201606271447+6949~45~ubuntu14.04.1-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -213,6 +213,7 @@
     </comp>
     <comp ref="D1">
       <value>Rojo</value>
+      <footprint>Leds:LED_0805</footprint>
       <fields>
         <field name="Fabricante">KINGBRIGHT ELECTRONIC</field>
         <field name="Ref">KP-2012EC</field>
@@ -225,6 +226,7 @@
     </comp>
     <comp ref="D2">
       <value>Rojo</value>
+      <footprint>Leds:LED_0805</footprint>
       <fields>
         <field name="Fabricante">KINGBRIGHT ELECTRONIC</field>
         <field name="Ref">KP-2012EC</field>
@@ -331,7 +333,7 @@
     </comp>
     <comp ref="C1">
       <value>4,7u</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <footprint>Condensadores:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">TAJD475K050RNJ</field>
@@ -344,7 +346,7 @@
     </comp>
     <comp ref="C6">
       <value>4,7u</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <footprint>Condensadores:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields/>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
@@ -352,7 +354,7 @@
     </comp>
     <comp ref="C3">
       <value>4,7u</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <footprint>Condensadores:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields>
         <field name="Fabricante">avx</field>
         <field name="Ref">TAJD475K050RNJ</field>
@@ -362,32 +364,6 @@
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Control/" tstamps="/5768938A/"/>
       <tstamp>576F1FE1</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>L298</value>
-      <footprint>MotorDrivers:L298_Multiwatt15V</footprint>
-      <fields>
-        <field name="Fabricante">st</field>
-        <field name="Ref">L298N</field>
-        <field name="Provedor">tme</field>
-        <field name="Ref_Proveedor">L298N</field>
-      </fields>
-      <libsource lib="MotorDrivers" part="L298"/>
-      <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
-      <tstamp>5768BA06</tstamp>
-    </comp>
-    <comp ref="U5">
-      <value>L298</value>
-      <footprint>MotorDrivers:L298_Multiwatt15V</footprint>
-      <fields>
-        <field name="Fabricante">st</field>
-        <field name="Ref">L298N</field>
-        <field name="Provedor">tme</field>
-        <field name="Ref_Proveedor">L298N</field>
-      </fields>
-      <libsource lib="MotorDrivers" part="L298"/>
-      <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
-      <tstamp>5768BB47</tstamp>
     </comp>
     <comp ref="C15">
       <value>100n</value>
@@ -503,6 +479,7 @@
     </comp>
     <comp ref="D7">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -515,6 +492,7 @@
     </comp>
     <comp ref="D9">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -527,6 +505,7 @@
     </comp>
     <comp ref="D11">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -539,6 +518,7 @@
     </comp>
     <comp ref="D13">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -551,6 +531,7 @@
     </comp>
     <comp ref="D8">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -563,6 +544,7 @@
     </comp>
     <comp ref="D10">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -575,6 +557,7 @@
     </comp>
     <comp ref="D12">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -587,6 +570,7 @@
     </comp>
     <comp ref="D14">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -598,12 +582,13 @@
       <tstamp>5769C15C</tstamp>
     </comp>
     <comp ref="C14">
-      <value>470u</value>
+      <value>220u</value>
+      <footprint>Capacitors_SMD:c_elec_10x10</footprint>
       <fields>
         <field name="Fabricante">PANASONIC</field>
-        <field name="Ref">EEVFK1J471M</field>
+        <field name="Ref">SC1H227M10010VR</field>
         <field name="Provedor">tme</field>
-        <field name="Ref_Proveedor">EEVFK1J471M</field>
+        <field name="Ref_Proveedor">SC1H227M10010VR</field>
       </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
@@ -641,6 +626,7 @@
     </comp>
     <comp ref="D19">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -653,6 +639,7 @@
     </comp>
     <comp ref="D21">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -665,6 +652,7 @@
     </comp>
     <comp ref="D23">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -677,6 +665,7 @@
     </comp>
     <comp ref="D25">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -689,6 +678,7 @@
     </comp>
     <comp ref="D20">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -701,6 +691,7 @@
     </comp>
     <comp ref="D22">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -713,6 +704,7 @@
     </comp>
     <comp ref="D24">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -725,6 +717,7 @@
     </comp>
     <comp ref="D26">
       <value>10MQ100</value>
+      <footprint>Diodos:DO-214AC</footprint>
       <fields>
         <field name="Fabricante">vishay</field>
         <field name="Ref">10MQ100NTRPBF</field>
@@ -736,10 +729,13 @@
       <tstamp>5769EE1D</tstamp>
     </comp>
     <comp ref="C21">
-      <value>470u</value>
+      <value>220u</value>
+      <footprint>Capacitors_SMD:c_elec_10x10</footprint>
       <fields>
+        <field name="Fabricante">SAMWHA</field>
+        <field name="Ref">SC1H227M10010VR</field>
         <field name="Provedor">tme</field>
-        <field name="Ref_Proveedor">EEVFK1J471M</field>
+        <field name="Ref_Proveedor">SC1H227M10010VR</field>
       </fields>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
@@ -801,6 +797,7 @@
     </comp>
     <comp ref="D3">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -841,6 +838,7 @@
     </comp>
     <comp ref="D4">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -881,6 +879,7 @@
     </comp>
     <comp ref="D5">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -921,6 +920,7 @@
     </comp>
     <comp ref="D6">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -961,6 +961,7 @@
     </comp>
     <comp ref="D15">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -1001,6 +1002,7 @@
     </comp>
     <comp ref="D16">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -1041,6 +1043,7 @@
     </comp>
     <comp ref="D17">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -1081,6 +1084,7 @@
     </comp>
     <comp ref="D18">
       <value>1N4148</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">DIOTEC SEMICONDUCTOR</field>
         <field name="Ref">1N4148W</field>
@@ -1119,8 +1123,35 @@
       <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
       <tstamp>576EE599</tstamp>
     </comp>
+    <comp ref="U4">
+      <value>L298P</value>
+      <footprint>MotorDrivers:L298_PowerSO20</footprint>
+      <fields>
+        <field name="Fabricante">ST</field>
+        <field name="Ref">L298P</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">L298P</field>
+      </fields>
+      <libsource lib="MotorDrivers" part="L298_SO"/>
+      <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
+      <tstamp>5771BE9E</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>L298P</value>
+      <footprint>MotorDrivers:L298_PowerSO20</footprint>
+      <fields>
+        <field name="Fabricante">ST</field>
+        <field name="Ref">L298P</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">L298P</field>
+      </fields>
+      <libsource lib="MotorDrivers" part="L298_SO"/>
+      <sheetpath names="/Potencia/" tstamps="/576895B7/"/>
+      <tstamp>5771C16D</tstamp>
+    </comp>
     <comp ref="P16">
       <value>CONN_02X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
       <fields/>
       <libsource lib="conn" part="CONN_02X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1128,55 +1159,41 @@
     </comp>
     <comp ref="P14">
       <value>USB_MINI</value>
+      <footprint>Conectores:usb_mini_molex_675031020</footprint>
       <fields/>
       <libsource lib="connector" part="USB_MINI"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>5769A439</tstamp>
     </comp>
-    <comp ref="P9">
-      <value>CONN_01X02</value>
-      <fields/>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
-      <tstamp>576A51A4</tstamp>
-    </comp>
-    <comp ref="P10">
-      <value>CONN_01X02</value>
-      <fields/>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
-      <tstamp>576A51C5</tstamp>
-    </comp>
-    <comp ref="P11">
-      <value>CONN_01X02</value>
-      <fields/>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
-      <tstamp>576A51FB</tstamp>
-    </comp>
-    <comp ref="P12">
-      <value>CONN_01X02</value>
-      <fields/>
-      <libsource lib="conn" part="CONN_01X02"/>
-      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
-      <tstamp>576A5220</tstamp>
-    </comp>
     <comp ref="P3">
       <value>CONN_01X03</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x3x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803280 + 1803581</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">MC1.5/3-G-3.81</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576A54FE</tstamp>
     </comp>
     <comp ref="P4">
       <value>CONN_01X03</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x3x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803280 + 1803581</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">MC1.5/3-G-3.81</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576A5562</tstamp>
     </comp>
     <comp ref="P5">
       <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields/>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1184,6 +1201,7 @@
     </comp>
     <comp ref="P6">
       <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields/>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1191,27 +1209,46 @@
     </comp>
     <comp ref="P13">
       <value>CONN_01X02</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x2x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803277 + 1803578</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">MC1.5/2-G-3.81</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576A7B83</tstamp>
     </comp>
     <comp ref="P1">
       <value>CONN_01X04</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x4x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803293 + 1803594</field>
+        <field name="Provedor">rs</field>
+        <field name="Ref_Proveedor">649-0128</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576A8427</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X04</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x4x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803293 + 1803594</field>
+        <field name="Provedor">rs</field>
+        <field name="Ref_Proveedor">649-0128</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X04"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576A8DD9</tstamp>
     </comp>
     <comp ref="F1">
       <value>500 mA</value>
+      <footprint>Resistencias:R_1812</footprint>
       <fields>
         <field name="Fabricante">ece</field>
         <field name="Ref">SD050-16</field>
@@ -1250,6 +1287,7 @@
     </comp>
     <comp ref="L1">
       <value>BLM21</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Fabricante">Murata</field>
         <field name="Ref">BLM21PG300SN1D</field>
@@ -1300,6 +1338,7 @@
     </comp>
     <comp ref="P7">
       <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields/>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1307,6 +1346,7 @@
     </comp>
     <comp ref="P8">
       <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields/>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
@@ -1344,15 +1384,48 @@
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
       <tstamp>576F7E8C</tstamp>
     </comp>
-    <comp ref="P15">
+    <comp ref="P9">
+      <value>CONN_01X04</value>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x4x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803293 + 1803594</field>
+        <field name="Provedor">rs</field>
+        <field name="Ref_Proveedor">649-0128</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
+      <tstamp>577995D5</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_01X04</value>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x4x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803293 + 1803594</field>
+        <field name="Provedor">rs</field>
+        <field name="Ref_Proveedor">649-0128</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/Pines/" tstamps="/5768970A/"/>
+      <tstamp>577996C1</tstamp>
+    </comp>
+    <comp ref="P11">
       <value>CONN_01X02</value>
-      <fields/>
+      <footprint>PhoenixContact:PhoenixContact_MC_1_5x2x3_81</footprint>
+      <fields>
+        <field name="Fabricante">phoenix contact</field>
+        <field name="Ref">1803277 + 1803578</field>
+        <field name="Provedor">tme</field>
+        <field name="Ref_Proveedor">MC1.5/2-G-3.81</field>
+      </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/Pines/" tstamps="/5768970A/"/>
-      <tstamp>576F418B</tstamp>
+      <tstamp>57799959</tstamp>
     </comp>
     <comp ref="D27">
       <value>MBR0520</value>
+      <footprint>Diodos:SOD-123</footprint>
       <fields>
         <field name="Fabricante">FAIRCHILD SEMICONDUCTOR</field>
         <field name="Ref">MBR0520L</field>
@@ -1390,7 +1463,7 @@
     </comp>
     <comp ref="C31">
       <value>4,7u</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <footprint>Condensadores:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields>
         <field name="Fabricante">AVX</field>
         <field name="Ref">TAJD475K050R</field>
@@ -1403,7 +1476,7 @@
     </comp>
     <comp ref="C30">
       <value>4,7u</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Wave</footprint>
+      <footprint>Condensadores:TantalC_SizeD_EIA-7343_Wave</footprint>
       <fields>
         <field name="Fabricante">AVX</field>
         <field name="Ref">TAJD475K050R</field>
@@ -1578,6 +1651,7 @@
     </comp>
     <comp ref="JP5">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-W</field>
@@ -1590,6 +1664,7 @@
     </comp>
     <comp ref="JP6">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-Y</field>
@@ -1602,6 +1677,7 @@
     </comp>
     <comp ref="JP1">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-W</field>
@@ -1614,6 +1690,7 @@
     </comp>
     <comp ref="JP2">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-W</field>
@@ -1682,6 +1759,7 @@
     </comp>
     <comp ref="JP3">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-Y</field>
@@ -1694,6 +1772,7 @@
     </comp>
     <comp ref="JP4">
       <value>JUMPER_3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-W</field>
@@ -1762,6 +1841,7 @@
     </comp>
     <comp ref="D31">
       <value>PDZ5</value>
+      <footprint>Diodos:SOD-323</footprint>
       <fields>
         <field name="Fabricante">NXP</field>
         <field name="Ref">PDZ5.1B.115</field>
@@ -1776,6 +1856,7 @@
     </comp>
     <comp ref="D30">
       <value>PDZ5</value>
+      <footprint>Diodos:SOD-323</footprint>
       <fields>
         <field name="Fabricante">NXP</field>
         <field name="Ref">PDZ5.1B.115</field>
@@ -1790,6 +1871,7 @@
     </comp>
     <comp ref="D29">
       <value>PDZ5</value>
+      <footprint>Diodos:SOD-323</footprint>
       <fields>
         <field name="Fabricante">NXP</field>
         <field name="Ref">PDZ5.1B.115</field>
@@ -1804,6 +1886,7 @@
     </comp>
     <comp ref="D28">
       <value>PDZ5</value>
+      <footprint>Diodos:SOD-323</footprint>
       <fields>
         <field name="Fabricante">NXP</field>
         <field name="Ref">PDZ5.1B.115</field>
@@ -1818,6 +1901,7 @@
     </comp>
     <comp ref="JP7">
       <value>JUMPER_2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <fields>
         <field name="Fabricante">NINIGI</field>
         <field name="Ref">JUMPER-B</field>
@@ -2137,27 +2221,32 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MotorDrivers" part="L298">
+    <libpart lib="MotorDrivers" part="L298_SO">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L298</field>
+        <field name="Value">L298_SO</field>
       </fields>
       <pins>
-        <pin num="1" name="SenseA" type="output"/>
-        <pin num="2" name="Out1" type="power_out"/>
-        <pin num="3" name="Out2" type="power_out"/>
-        <pin num="4" name="Vs" type="power_in"/>
-        <pin num="5" name="In1" type="input"/>
-        <pin num="6" name="EnA" type="input"/>
-        <pin num="7" name="In2" type="input"/>
-        <pin num="8" name="Gnd" type="power_in"/>
-        <pin num="9" name="Vss" type="power_in"/>
-        <pin num="10" name="In3" type="input"/>
-        <pin num="11" name="EnB" type="input"/>
-        <pin num="12" name="In4" type="input"/>
-        <pin num="13" name="Out3" type="power_out"/>
-        <pin num="14" name="Out4" type="power_out"/>
-        <pin num="15" name="E" type="output"/>
+        <pin num="1" name="Gnd" type="power_in"/>
+        <pin num="2" name="SenseA" type="output"/>
+        <pin num="3" name="~" type="NotConnected"/>
+        <pin num="4" name="Out1" type="power_out"/>
+        <pin num="5" name="Out2" type="power_out"/>
+        <pin num="6" name="Vs" type="power_in"/>
+        <pin num="7" name="In1" type="input"/>
+        <pin num="8" name="EnA" type="input"/>
+        <pin num="9" name="In2" type="input"/>
+        <pin num="10" name="Gnd" type="power_in"/>
+        <pin num="11" name="Gnd" type="power_in"/>
+        <pin num="12" name="Vss" type="power_in"/>
+        <pin num="13" name="In3" type="input"/>
+        <pin num="14" name="EnB" type="input"/>
+        <pin num="15" name="In4" type="input"/>
+        <pin num="16" name="Out3" type="power_out"/>
+        <pin num="17" name="Out4" type="power_out"/>
+        <pin num="18" name="~" type="NotConnected"/>
+        <pin num="19" name="SenseB" type="output"/>
+        <pin num="20" name="Gnd" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="device" part="LED">
@@ -2303,11 +2392,11 @@
     <library logical="Interfaces">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Interfaces.lib</uri>
     </library>
-    <library logical="Reles">
-      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Reles.lib</uri>
-    </library>
     <library logical="Pasivos">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Pasivos.lib</uri>
+    </library>
+    <library logical="Reles">
+      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Reles.lib</uri>
     </library>
     <library logical="MotorDrivers">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/MotorDrivers.lib</uri>
@@ -2315,22 +2404,22 @@
     <library logical="connector">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/connector.lib</uri>
     </library>
-    <library logical="Opamp">
-      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Opamp.lib</uri>
-    </library>
     <library logical="Traco">
       <uri>/home/amr/Documentos/KiCad/kicad-libraries/Traco.lib</uri>
+    </library>
+    <library logical="Opamp">
+      <uri>/home/amr/Documentos/KiCad/kicad-libraries/Opamp.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="MOTOR1_A">
-      <node ref="U2" pin="6"/>
       <node ref="C9" pin="2"/>
       <node ref="D3" pin="1"/>
+      <node ref="U2" pin="6"/>
     </net>
     <net code="2" name="MOTOR4_A">
-      <node ref="C18" pin="2"/>
       <node ref="D17" pin="1"/>
+      <node ref="C18" pin="2"/>
       <node ref="U2" pin="19"/>
     </net>
     <net code="3" name="SERVO3">
@@ -2338,24 +2427,24 @@
       <node ref="P7" pin="1"/>
     </net>
     <net code="4" name="MOTOR3_EN">
-      <node ref="R21" pin="1"/>
       <node ref="U2" pin="17"/>
-      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R21" pin="1"/>
     </net>
     <net code="5" name="MOTOR3_B">
+      <node ref="C17" pin="2"/>
       <node ref="D16" pin="1"/>
       <node ref="U2" pin="16"/>
-      <node ref="C17" pin="2"/>
     </net>
     <net code="6" name="MOTOR3_A">
-      <node ref="D15" pin="1"/>
       <node ref="U2" pin="15"/>
       <node ref="C16" pin="2"/>
+      <node ref="D15" pin="1"/>
     </net>
     <net code="7" name="MOTOR1_B">
-      <node ref="C10" pin="2"/>
-      <node ref="D4" pin="1"/>
       <node ref="U2" pin="7"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C10" pin="2"/>
     </net>
     <net code="8" name="SERVO2">
       <node ref="P6" pin="1"/>
@@ -2366,14 +2455,14 @@
       <node ref="U2" pin="22"/>
     </net>
     <net code="10" name="MOTOR2_EN">
+      <node ref="U4" pin="14"/>
       <node ref="R10" pin="1"/>
       <node ref="U2" pin="12"/>
-      <node ref="U4" pin="11"/>
     </net>
     <net code="11" name="MOTOR4_EN">
-      <node ref="U5" pin="11"/>
-      <node ref="R22" pin="1"/>
       <node ref="U2" pin="21"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="14"/>
     </net>
     <net code="12" name="MOTOR2_B">
       <node ref="D6" pin="1"/>
@@ -2381,9 +2470,9 @@
       <node ref="U2" pin="11"/>
     </net>
     <net code="13" name="MOTOR4_B">
-      <node ref="U2" pin="20"/>
       <node ref="D18" pin="1"/>
       <node ref="C19" pin="2"/>
+      <node ref="U2" pin="20"/>
     </net>
     <net code="14" name="MOTOR2_A">
       <node ref="C11" pin="2"/>
@@ -2391,77 +2480,77 @@
       <node ref="U2" pin="10"/>
     </net>
     <net code="15" name="SERVO1">
-      <node ref="U2" pin="9"/>
       <node ref="P5" pin="1"/>
+      <node ref="U2" pin="9"/>
     </net>
     <net code="16" name="MOTOR1_EN">
-      <node ref="U2" pin="8"/>
+      <node ref="U4" pin="8"/>
       <node ref="R9" pin="1"/>
-      <node ref="U4" pin="6"/>
+      <node ref="U2" pin="8"/>
     </net>
     <net code="17" name="ENC2_A2">
-      <node ref="R40" pin="1"/>
-      <node ref="JP3" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="U1" pin="1"/>
       <node ref="R39" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="JP3" pin="1"/>
     </net>
     <net code="18" name="RESET">
-      <node ref="C8" pin="1"/>
       <node ref="P16" pin="5"/>
       <node ref="R1" pin="2"/>
+      <node ref="C8" pin="1"/>
       <node ref="SW1" pin="4"/>
-      <node ref="U1" pin="29"/>
       <node ref="SW1" pin="3"/>
+      <node ref="U1" pin="29"/>
     </net>
     <net code="19" name="+5V">
-      <node ref="P8" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U2" pin="24"/>
-      <node ref="U2" pin="28"/>
       <node ref="C33" pin="1"/>
-      <node ref="D2" pin="2"/>
-      <node ref="P3" pin="1"/>
-      <node ref="P7" pin="2"/>
-      <node ref="P5" pin="2"/>
-      <node ref="U7" pin="8"/>
-      <node ref="P6" pin="2"/>
-      <node ref="U1" pin="18"/>
-      <node ref="P4" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C20" pin="2"/>
       <node ref="JP6" pin="1"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U5" pin="12"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U2" pin="28"/>
+      <node ref="P5" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="P16" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="D27" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P8" pin="2"/>
       <node ref="C26" pin="1"/>
-      <node ref="C25" pin="1"/>
       <node ref="C24" pin="1"/>
       <node ref="C23" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="P16" pin="2"/>
-      <node ref="JP5" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U5" pin="9"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U3" pin="15"/>
-      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="C25" pin="1"/>
       <node ref="U8" pin="8"/>
-      <node ref="C32" pin="1"/>
+      <node ref="U7" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="18"/>
       <node ref="C3" pin="1"/>
+      <node ref="C6" pin="1"/>
       <node ref="C1" pin="1"/>
       <node ref="R4" pin="1"/>
       <node ref="R3" pin="1"/>
       <node ref="R2" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="U6" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="D27" pin="1"/>
-      <node ref="U1" pin="6"/>
     </net>
     <net code="20" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
       <node ref="R7" pin="1"/>
+      <node ref="D1" pin="1"/>
     </net>
     <net code="21" name="Net-(R8-Pad1)">
       <node ref="U3" pin="10"/>
@@ -2472,88 +2561,94 @@
       <node ref="R7" pin="2"/>
     </net>
     <net code="23" name="GND">
-      <node ref="C22" pin="2"/>
-      <node ref="D10" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="R22" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="16"/>
+      <node ref="P8" pin="3"/>
+      <node ref="P7" pin="3"/>
       <node ref="R21" pin="2"/>
-      <node ref="U2" pin="14"/>
-      <node ref="D12" pin="2"/>
-      <node ref="D14" pin="2"/>
-      <node ref="D20" pin="2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="R16" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="D26" pin="2"/>
-      <node ref="R24" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="C20" pin="1"/>
-      <node ref="D22" pin="2"/>
-      <node ref="D24" pin="2"/>
-      <node ref="C21" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C22" pin="2"/>
       <node ref="C13" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="D29" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C31" pin="2"/>
       <node ref="R42" pin="2"/>
       <node ref="R40" pin="2"/>
-      <node ref="D30" pin="2"/>
-      <node ref="D31" pin="2"/>
       <node ref="C30" pin="2"/>
-      <node ref="U6" pin="2"/>
-      <node ref="R34" pin="2"/>
-      <node ref="R32" pin="2"/>
-      <node ref="D28" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="R35" pin="2"/>
-      <node ref="R36" pin="2"/>
-      <node ref="U8" pin="4"/>
-      <node ref="C32" pin="2"/>
-      <node ref="R27" pin="2"/>
-      <node ref="U7" pin="4"/>
-      <node ref="R28" pin="2"/>
-      <node ref="P15" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C27" pin="2"/>
-      <node ref="P7" pin="3"/>
-      <node ref="P8" pin="3"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="P1" pin="4"/>
-      <node ref="P2" pin="4"/>
-      <node ref="P3" pin="3"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="D30" pin="2"/>
       <node ref="P4" pin="3"/>
       <node ref="P5" pin="3"/>
       <node ref="P6" pin="3"/>
-      <node ref="C31" pin="2"/>
+      <node ref="P13" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="C24" pin="2"/>
       <node ref="C25" pin="2"/>
       <node ref="C26" pin="2"/>
-      <node ref="P16" pin="6"/>
-      <node ref="P14" pin="5"/>
-      <node ref="P13" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U2" pin="5"/>
-      <node ref="Y1" pin="3"/>
-      <node ref="U3" pin="16"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="21"/>
-      <node ref="D8" pin="2"/>
-      <node ref="U2" pin="25"/>
+      <node ref="C23" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="C2" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="P11" pin="2"/>
+      <node ref="U2" pin="25"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P2" pin="4"/>
+      <node ref="D31" pin="2"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P16" pin="6"/>
+      <node ref="C32" pin="2"/>
+      <node ref="P14" pin="5"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U5" pin="10"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U5" pin="20"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R10" pin="2"/>
     </net>
     <net code="24" name="Net-(U1-Pad13)">
       <node ref="U1" pin="13"/>
@@ -2571,19 +2666,19 @@
       <node ref="U1" pin="14"/>
     </net>
     <net code="29" name="/Control/PWM_OE">
-      <node ref="U2" pin="23"/>
       <node ref="R4" pin="2"/>
+      <node ref="U2" pin="23"/>
     </net>
     <net code="30" name="/Control/SDA">
-      <node ref="U2" pin="27"/>
-      <node ref="R2" pin="2"/>
       <node ref="U1" pin="27"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="27"/>
     </net>
     <net code="31" name="ENC1_B2">
+      <node ref="U1" pin="2"/>
+      <node ref="R34" pin="1"/>
       <node ref="D29" pin="1"/>
       <node ref="R33" pin="1"/>
-      <node ref="R34" pin="1"/>
-      <node ref="U1" pin="2"/>
       <node ref="JP2" pin="1"/>
     </net>
     <net code="32" name="Net-(R6-Pad2)">
@@ -2595,8 +2690,8 @@
       <node ref="R5" pin="2"/>
     </net>
     <net code="34" name="Net-(U1-Pad8)">
-      <node ref="Y1" pin="2"/>
       <node ref="U1" pin="8"/>
+      <node ref="Y1" pin="2"/>
     </net>
     <net code="35" name="Net-(U1-Pad7)">
       <node ref="Y1" pin="1"/>
@@ -2609,39 +2704,39 @@
       <node ref="U3" pin="18"/>
     </net>
     <net code="38" name="D-">
-      <node ref="R25" pin="1"/>
       <node ref="U3" pin="12"/>
+      <node ref="R25" pin="1"/>
     </net>
     <net code="39" name="/Control/Tx">
       <node ref="R6" pin="1"/>
       <node ref="U3" pin="4"/>
     </net>
     <net code="40" name="/Control/Rx">
-      <node ref="R5" pin="1"/>
       <node ref="U3" pin="20"/>
+      <node ref="R5" pin="1"/>
     </net>
     <net code="41" name="ENC1_A2">
-      <node ref="JP1" pin="1"/>
       <node ref="D28" pin="1"/>
-      <node ref="R32" pin="1"/>
       <node ref="U1" pin="32"/>
       <node ref="R31" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="JP1" pin="1"/>
     </net>
     <net code="42" name="Net-(U1-Pad20)">
       <node ref="U1" pin="20"/>
     </net>
     <net code="43" name="ENC2_B2">
-      <node ref="R41" pin="1"/>
       <node ref="R42" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R41" pin="1"/>
       <node ref="D31" pin="1"/>
       <node ref="JP4" pin="1"/>
-      <node ref="U1" pin="9"/>
     </net>
     <net code="44" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="U3" pin="14"/>
-      <node ref="U3" pin="13"/>
       <node ref="U3" pin="3"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="14"/>
+      <node ref="C5" pin="1"/>
     </net>
     <net code="45" name="Net-(U3-Pad9)">
       <node ref="U3" pin="9"/>
@@ -2656,8 +2751,8 @@
       <node ref="U3" pin="5"/>
     </net>
     <net code="49" name="Net-(D2-Pad1)">
-      <node ref="R8" pin="2"/>
       <node ref="D2" pin="1"/>
+      <node ref="R8" pin="2"/>
     </net>
     <net code="50" name="Net-(U3-Pad2)">
       <node ref="U3" pin="2"/>
@@ -2667,37 +2762,37 @@
       <node ref="C8" pin="2"/>
     </net>
     <net code="52" name="/Control/SCL">
+      <node ref="U1" pin="28"/>
       <node ref="U2" pin="26"/>
       <node ref="R3" pin="2"/>
-      <node ref="U1" pin="28"/>
     </net>
     <net code="53" name="CONSIGNA2">
-      <node ref="P4" pin="2"/>
       <node ref="U1" pin="22"/>
+      <node ref="P4" pin="2"/>
     </net>
     <net code="54" name="CONSIGNA1">
       <node ref="P3" pin="2"/>
       <node ref="U1" pin="19"/>
     </net>
     <net code="55" name="MOTOR4_CURRENT">
-      <node ref="U8" pin="7"/>
       <node ref="U1" pin="26"/>
+      <node ref="U8" pin="7"/>
       <node ref="R38" pin="1"/>
     </net>
     <net code="56" name="MOTOR3_CURRENT">
       <node ref="U1" pin="25"/>
-      <node ref="R37" pin="1"/>
       <node ref="U8" pin="1"/>
+      <node ref="R37" pin="1"/>
     </net>
     <net code="57" name="MOTOR2_CURRENT">
-      <node ref="R30" pin="1"/>
       <node ref="U1" pin="24"/>
+      <node ref="R30" pin="1"/>
       <node ref="U7" pin="7"/>
     </net>
     <net code="58" name="MOTOR1_CURRENT">
-      <node ref="U1" pin="23"/>
       <node ref="U7" pin="1"/>
       <node ref="R29" pin="1"/>
+      <node ref="U1" pin="23"/>
     </net>
     <net code="59" name="D+">
       <node ref="U3" pin="11"/>
@@ -2708,253 +2803,265 @@
       <node ref="U1" pin="17"/>
     </net>
     <net code="61" name="MISO">
-      <node ref="P16" pin="1"/>
       <node ref="U1" pin="16"/>
+      <node ref="P16" pin="1"/>
     </net>
     <net code="62" name="MOSI">
-      <node ref="U1" pin="15"/>
       <node ref="P16" pin="4"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="63" name="/Potencia/Motor1_A_in">
-      <node ref="R11" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="64" name="Motor1+">
-      <node ref="P9" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D7" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="65" name="/Potencia/Motor3_A_in">
-      <node ref="D15" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C16" pin="1"/>
-    </net>
-    <net code="66" name="Motor4+">
-      <node ref="D23" pin="2"/>
-      <node ref="U5" pin="13"/>
-      <node ref="R19" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="P12" pin="1"/>
-    </net>
-    <net code="67" name="/Potencia/Motor4_A_in">
-      <node ref="U5" pin="10"/>
-      <node ref="D17" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="68" name="Motor3-">
-      <node ref="D22" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="D21" pin="2"/>
-      <node ref="P11" pin="2"/>
-    </net>
-    <net code="69" name="/Potencia/Motor3_B_in">
-      <node ref="R18" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="D16" pin="2"/>
-      <node ref="U5" pin="7"/>
-    </net>
-    <net code="70" name="Motor4-">
-      <node ref="D25" pin="2"/>
-      <node ref="D26" pin="1"/>
-      <node ref="P12" pin="2"/>
-      <node ref="R20" pin="1"/>
-      <node ref="U5" pin="14"/>
-    </net>
-    <net code="71" name="MOTOR3_SENSE">
-      <node ref="U5" pin="1"/>
-      <node ref="U8" pin="3"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="72" name="MOTOR2_SENSE">
-      <node ref="R16" pin="1"/>
-      <node ref="U7" pin="5"/>
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="73" name="/Potencia/Motor4_B_in">
-      <node ref="U5" pin="12"/>
-      <node ref="D18" pin="2"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C19" pin="1"/>
-    </net>
-    <net code="74" name="/Potencia/Motor2_B_in">
-      <node ref="U4" pin="12"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="75" name="/Potencia/Motor2_A_in">
+    <net code="63" name="/Potencia/Motor2_A_in">
+      <node ref="D5" pin="2"/>
       <node ref="C11" pin="1"/>
       <node ref="R13" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="13"/>
     </net>
-    <net code="76" name="/Potencia/Motor1_B_in">
-      <node ref="U4" pin="7"/>
+    <net code="64" name="Motor2+">
+      <node ref="R13" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="P9" pin="3"/>
+      <node ref="U4" pin="16"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="65" name="Motor1-">
+      <node ref="U4" pin="5"/>
+      <node ref="P9" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="66" name="/Potencia/Motor1_B_in">
+      <node ref="D4" pin="2"/>
       <node ref="C10" pin="1"/>
       <node ref="R12" pin="2"/>
-      <node ref="D4" pin="2"/>
+      <node ref="U4" pin="9"/>
     </net>
-    <net code="77" name="MOTOR1_SENSE">
-      <node ref="R15" pin="1"/>
-      <node ref="U4" pin="1"/>
+    <net code="67" name="Motor2-">
+      <node ref="R14" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="P9" pin="4"/>
+      <node ref="U4" pin="17"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="68" name="/Potencia/Motor2_B_in">
+      <node ref="D6" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="69" name="/Potencia/Motor3_A_in">
+      <node ref="U5" pin="7"/>
+      <node ref="R17" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="71" name="/Potencia/Motor1_A_in">
+      <node ref="U4" pin="7"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="72" name="/Potencia/Motor3_B_in">
+      <node ref="D16" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="73" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="74" name="/Potencia/Motor4_B_in">
+      <node ref="U5" pin="15"/>
+      <node ref="C19" pin="1"/>
+      <node ref="D18" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="75" name="/Potencia/Motor4_A_in">
+      <node ref="R19" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="D17" pin="2"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="76" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="77" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="78" name="MOTOR1_SENSE">
+      <node ref="U4" pin="2"/>
       <node ref="U7" pin="3"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="78" name="VSS">
-      <node ref="JP7" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="U4" pin="4"/>
-      <node ref="C22" pin="1"/>
-      <node ref="D21" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="P13" pin="1"/>
-      <node ref="U5" pin="4"/>
-      <node ref="L2" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="D9" pin="1"/>
+    <net code="79" name="MOTOR4_SENSE">
+      <node ref="R24" pin="1"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U5" pin="19"/>
     </net>
-    <net code="79" name="Motor3+">
-      <node ref="D20" pin="1"/>
-      <node ref="P11" pin="1"/>
+    <net code="80" name="MOTOR3_SENSE">
+      <node ref="U8" pin="3"/>
+      <node ref="R23" pin="1"/>
       <node ref="U5" pin="2"/>
+    </net>
+    <net code="81" name="MOTOR2_SENSE">
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="82" name="Motor4-">
+      <node ref="P10" pin="4"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D26" pin="1"/>
+      <node ref="U5" pin="17"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="83" name="Motor4+">
+      <node ref="U5" pin="16"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D24" pin="1"/>
+      <node ref="P10" pin="3"/>
+    </net>
+    <net code="84" name="Motor3-">
+      <node ref="D22" pin="1"/>
+      <node ref="D21" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="85" name="Motor3+">
       <node ref="D19" pin="2"/>
+      <node ref="P10" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="U5" pin="4"/>
       <node ref="R17" pin="1"/>
     </net>
-    <net code="80" name="MOTOR4_SENSE">
-      <node ref="R24" pin="1"/>
-      <node ref="U5" pin="15"/>
-      <node ref="U8" pin="5"/>
+    <net code="86" name="VSS">
+      <node ref="D11" pin="1"/>
+      <node ref="JP7" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C22" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="D21" pin="1"/>
     </net>
-    <net code="81" name="Motor2-">
-      <node ref="U4" pin="14"/>
-      <node ref="R14" pin="1"/>
-      <node ref="D13" pin="2"/>
-      <node ref="P10" pin="2"/>
-      <node ref="D14" pin="1"/>
-    </net>
-    <net code="82" name="Motor2+">
-      <node ref="U4" pin="13"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D11" pin="2"/>
-      <node ref="P10" pin="1"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="83" name="Motor1-">
-      <node ref="U4" pin="3"/>
-      <node ref="R12" pin="1"/>
-      <node ref="D9" pin="2"/>
-      <node ref="P9" pin="2"/>
-      <node ref="D10" pin="1"/>
-    </net>
-    <net code="84" name="VUSB">
-      <node ref="D27" pin="2"/>
-      <node ref="F1" pin="2"/>
-    </net>
-    <net code="85" name="Net-(C29-Pad1)">
-      <node ref="C29" pin="1"/>
-      <node ref="R26" pin="2"/>
-      <node ref="P14" pin="3"/>
-    </net>
-    <net code="86" name="Net-(C28-Pad1)">
-      <node ref="R25" pin="2"/>
-      <node ref="P14" pin="2"/>
-      <node ref="C28" pin="1"/>
-    </net>
-    <net code="87" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="L1" pin="1"/>
+    <net code="87" name="Motor1+">
+      <node ref="R11" pin="1"/>
+      <node ref="P9" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="U4" pin="4"/>
     </net>
     <net code="88" name="Net-(P14-Pad6)">
       <node ref="P14" pin="6"/>
     </net>
-    <net code="89" name="+24V">
-      <node ref="JP7" pin="2"/>
-      <node ref="JP5" pin="3"/>
-      <node ref="JP6" pin="3"/>
-      <node ref="P15" pin="1"/>
+    <net code="89" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="P14" pin="3"/>
+      <node ref="R26" pin="2"/>
     </net>
-    <net code="90" name="Net-(P14-Pad4)">
-      <node ref="P14" pin="4"/>
+    <net code="90" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="L1" pin="1"/>
     </net>
-    <net code="91" name="/Pines/XUSB">
-      <node ref="L1" pin="2"/>
-      <node ref="P14" pin="1"/>
-      <node ref="C27" pin="1"/>
+    <net code="91" name="VUSB">
+      <node ref="D27" pin="2"/>
+      <node ref="F1" pin="2"/>
     </net>
     <net code="92" name="ENC1_PWR">
-      <node ref="P1" pin="1"/>
       <node ref="JP5" pin="2"/>
+      <node ref="P1" pin="1"/>
     </net>
-    <net code="93" name="ENC1_A">
+    <net code="93" name="+24V">
+      <node ref="JP7" pin="2"/>
+      <node ref="JP6" pin="3"/>
+      <node ref="JP5" pin="3"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="94" name="Net-(P14-Pad4)">
+      <node ref="P14" pin="4"/>
+    </net>
+    <net code="95" name="Net-(C28-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="P14" pin="2"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="96" name="ENC2_B">
+      <node ref="JP4" pin="2"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="97" name="ENC1_A">
       <node ref="JP1" pin="2"/>
       <node ref="P1" pin="2"/>
     </net>
-    <net code="94" name="ENC1_B">
+    <net code="98" name="ENC1_B">
       <node ref="P1" pin="3"/>
       <node ref="JP2" pin="2"/>
     </net>
-    <net code="95" name="ENC2_PWR">
-      <node ref="P2" pin="1"/>
+    <net code="99" name="ENC2_PWR">
       <node ref="JP6" pin="2"/>
+      <node ref="P2" pin="1"/>
     </net>
-    <net code="96" name="ENC2_A">
+    <net code="100" name="ENC2_A">
       <node ref="P2" pin="2"/>
       <node ref="JP3" pin="2"/>
     </net>
-    <net code="97" name="ENC2_B">
-      <node ref="P2" pin="3"/>
-      <node ref="JP4" pin="2"/>
+    <net code="101" name="/Pines/XUSB">
+      <node ref="L1" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="P14" pin="1"/>
     </net>
-    <net code="98" name="Net-(C31-Pad1)">
+    <net code="102" name="Net-(C31-Pad1)">
       <node ref="L2" pin="2"/>
       <node ref="U6" pin="1"/>
       <node ref="C31" pin="1"/>
     </net>
-    <net code="99" name="Net-(JP4-Pad3)">
-      <node ref="R41" pin="2"/>
+    <net code="103" name="Net-(JP4-Pad3)">
       <node ref="JP4" pin="3"/>
+      <node ref="R41" pin="2"/>
     </net>
-    <net code="100" name="Net-(JP3-Pad3)">
+    <net code="104" name="Net-(JP3-Pad3)">
       <node ref="R39" pin="2"/>
       <node ref="JP3" pin="3"/>
     </net>
-    <net code="101" name="Net-(JP1-Pad3)">
+    <net code="105" name="Net-(JP1-Pad3)">
       <node ref="JP1" pin="3"/>
       <node ref="R31" pin="2"/>
     </net>
-    <net code="102" name="Net-(JP2-Pad3)">
+    <net code="106" name="Net-(JP2-Pad3)">
       <node ref="R33" pin="2"/>
       <node ref="JP2" pin="3"/>
     </net>
-    <net code="103" name="Net-(R28-Pad1)">
+    <net code="107" name="Net-(R28-Pad1)">
       <node ref="R30" pin="2"/>
-      <node ref="U7" pin="6"/>
       <node ref="R28" pin="1"/>
+      <node ref="U7" pin="6"/>
     </net>
-    <net code="106" name="Net-(R35-Pad1)">
+    <net code="110" name="Net-(R35-Pad1)">
       <node ref="R37" pin="2"/>
       <node ref="R35" pin="1"/>
       <node ref="U8" pin="2"/>
     </net>
-    <net code="107" name="Net-(R27-Pad1)">
+    <net code="111" name="Net-(R27-Pad1)">
       <node ref="R27" pin="1"/>
-      <node ref="U7" pin="2"/>
       <node ref="R29" pin="2"/>
+      <node ref="U7" pin="2"/>
     </net>
-    <net code="109" name="Net-(R36-Pad1)">
+    <net code="113" name="Net-(R36-Pad1)">
       <node ref="R38" pin="2"/>
       <node ref="R36" pin="1"/>
       <node ref="U8" pin="6"/>
