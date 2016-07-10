@@ -887,4 +887,58 @@ F 9 "MC1.5/2-G-3.81" H 1600 3400 60  0001 C CNN "Ref_Proveedor"
 	1    8600 1200
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X03 P12
+U 1 1 577B1D45
+P 2450 3300
+F 0 "P12" H 2528 3341 50  0000 L CNN
+F 1 "CONN_01X03" H 2528 3250 50  0000 L CNN
+F 2 "PhoenixContact:PhoenixContact_MC_1_5x3x3_81" H 2450 3300 50  0001 C CNN
+F 3 "" H 2450 3300 50  0000 C CNN
+F 4 "phoenix contact" H 1000 3350 60  0001 C CNN "Fabricante"
+F 5 "1803280 + 1803581" H 1000 3350 60  0001 C CNN "Ref"
+F 6 "~" H 1000 3350 60  0001 C CNN "Potencia"
+F 7 "~" H 1000 3350 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 1000 3350 60  0001 C CNN "Provedor"
+F 9 "MC1.5/3-G-3.81" H 1000 3350 60  0001 C CNN "Ref_Proveedor"
+	1    2450 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 3200 0    60   Output ~ 0
+DI3
+Text GLabel 1750 3300 0    60   Output ~ 0
+DI2
+Text GLabel 1750 3400 0    60   Output ~ 0
+DI1
+Wire Wire Line
+	1750 3200 2250 3200
+Wire Wire Line
+	2250 3300 1750 3300
+Wire Wire Line
+	1750 3400 2250 3400
+$Comp
+L CONN_01X02 P15
+U 1 1 577B226D
+P 2450 3750
+F 0 "P15" H 2528 3791 50  0000 L CNN
+F 1 "CONN_01X02" H 2528 3700 50  0000 L CNN
+F 2 "PhoenixContact:PhoenixContact_MC_1_5x2x3_81" H 2450 3750 50  0001 C CNN
+F 3 "" H 2450 3750 50  0000 C CNN
+F 4 "phoenix contact" H -2850 5950 60  0001 C CNN "Fabricante"
+F 5 "1803277 + 1803578" H -2850 5950 60  0001 C CNN "Ref"
+F 6 "~" H -2850 5950 60  0001 C CNN "Potencia"
+F 7 "~" H -2850 5950 60  0001 C CNN "Tolerancia"
+F 8 "tme" H -2850 5950 60  0001 C CNN "Provedor"
+F 9 "MC1.5/2-G-3.81" H -2850 5950 60  0001 C CNN "Ref_Proveedor"
+	1    2450 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 3700 0    60   Input ~ 0
+DO1
+Text GLabel 1750 3800 0    60   Input ~ 0
+DO2
+Wire Wire Line
+	1750 3700 2250 3700
+Wire Wire Line
+	2250 3800 1750 3800
 $EndSCHEMATC
