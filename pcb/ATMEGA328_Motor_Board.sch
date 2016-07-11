@@ -37,12 +37,13 @@ LIBS:MotorDrivers
 LIBS:connector
 LIBS:Opamp
 LIBS:Traco
+LIBS:Optoacoplados
 LIBS:ATMEGA328_Motor_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -53,19 +54,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1600 4700 1400 1000
+S 1500 3900 1400 1000
 U 5768938A
 F0 "Control" 60
 F1 "Control.sch" 60
 $EndSheet
 $Sheet
-S 8450 4500 1400 1000
+S 8450 3650 1400 1000
 U 576895B7
 F0 "Potencia" 60
 F1 "Potencia.sch" 60
 $EndSheet
 $Sheet
-S 8300 1500 1400 1000
+S 7550 1100 1400 1000
 U 5768970A
 F0 "Pines" 60
 F1 "Pines_E_S.sch" 60
@@ -77,9 +78,15 @@ F0 "Alimentacion" 60
 F1 "Alimentacion.sch" 60
 $EndSheet
 $Sheet
-S 4750 5850 1400 1000
+S 2700 5650 1400 1000
 U 576D539B
 F0 "Acondicionamiento" 60
 F1 "Acondicionamiento.sch" 60
+$EndSheet
+$Sheet
+S 6650 5350 1400 1000
+U 57841AC1
+F0 "Entradas_Salidas" 60
+F1 "Entradas_Salidas.sch" 60
 $EndSheet
 $EndSCHEMATC

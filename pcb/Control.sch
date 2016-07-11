@@ -37,12 +37,13 @@ LIBS:MotorDrivers
 LIBS:connector
 LIBS:Opamp
 LIBS:Traco
+LIBS:Optoacoplados
 LIBS:ATMEGA328_Motor_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -90,18 +91,18 @@ $Comp
 L Cristal Y1
 U 1 1 57689A0E
 P 1600 2150
-F 0 "Y1" V 1554 2231 50  0000 L CNN
-F 1 "16MHz" V 1645 2231 50  0000 L CNN
-F 2 "" H 2030 2260 50  0001 C CNN
+F 0 "Y1" H 1600 2270 50  0000 C CNN
+F 1 "16MHz" V 1800 2050 50  0000 C CNN
+F 2 "Cristal:Murata_CSTCE_V_A" H 2030 2260 50  0001 C CNN
 F 3 "" H 2030 2260 50  0000 C CNN
-F 4 "IQD FREQUENCY PRODUCTS" V 1600 2150 60  0001 C CNN "Fabricante"
-F 5 "LF SPXO018034" V 1600 2150 60  0001 C CNN "Ref"
+F 4 "Murata" V 1600 2150 60  0001 C CNN "Fabricante"
+F 5 "CSTCE16M0V53-R0" V 1600 2150 60  0001 C CNN "Ref"
 F 6 "~" H 1600 2150 60  0001 C CNN "Potencia"
 F 7 "~" H 1600 2150 60  0001 C CNN "Tolerancia"
 F 8 "~" H 1600 2150 60  0001 C CNN "Provedor"
 F 9 "~" H 1600 2150 60  0001 C CNN "Ref_Proveedor"
-F 10 "tme" V 1600 2150 60  0001 C CNN "Proveedor"
-F 11 "CFPS-72-16M" V 1600 2150 60  0001 C CNN "Ref. Proveedor"
+F 10 "rs" V 1600 2150 60  0001 C CNN "Proveedor"
+F 11 "792-6524" V 1600 2150 60  0001 C CNN "Ref. Proveedor"
 	1    1600 2150
 	0    1    1    0   
 $EndComp
@@ -992,15 +993,15 @@ F 9 "TAJC475K050R" H 4550 1400 60  0001 C CNN "Ref_Proveedor"
 	1    0    0    -1  
 $EndComp
 Text GLabel 4250 2850 2    60   Input ~ 0
-DI1
+uC_DI1
 Text GLabel 4250 2950 2    60   Input ~ 0
-DI2
+uC_DI2
 Text GLabel 4250 3150 2    60   Input ~ 0
-DI3
+uC_DI3
 Text GLabel 4250 3250 2    60   Output ~ 0
-DO1
+uC_DO1
 Text GLabel 4250 3350 2    60   Output ~ 0
-DO2
+uC_DO2
 Wire Wire Line
 	3950 2850 4250 2850
 Wire Wire Line

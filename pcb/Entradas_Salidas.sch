@@ -1,0 +1,421 @@
+EESchema Schematic File Version 2
+LIBS:ATMEGA328_Motor_Board-rescue
+LIBS:Microcontroladores
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Interfaces
+LIBS:Pasivos
+LIBS:Reles
+LIBS:MotorDrivers
+LIBS:connector
+LIBS:Opamp
+LIBS:Traco
+LIBS:Optoacoplados
+LIBS:ATMEGA328_Motor_Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ASSR-1218 U12
+U 1 1 57843A44
+P 8850 3250
+F 0 "U12" H 8850 3575 50  0000 C CNN
+F 1 "ASSR-1218" H 8850 3484 50  0000 C CNN
+F 2 "SOP:SOP-4" H 8850 3483 50  0001 C CIN
+F 3 "" H 8800 3250 50  0000 L CNN
+F 4 "~" H 8850 3250 60  0001 C CNN "Fabricante"
+F 5 "~" H 8850 3250 60  0001 C CNN "Ref"
+F 6 "~" H 8850 3250 60  0001 C CNN "Potencia"
+F 7 "~" H 8850 3250 60  0001 C CNN "Tolerancia"
+F 8 "~" H 8850 3250 60  0001 C CNN "Provedor"
+F 9 "~" H 8850 3250 60  0001 C CNN "Ref_Proveedor"
+	1    8850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ASSR-1218 U13
+U 1 1 57843BFB
+P 8850 4500
+F 0 "U13" H 8850 4825 50  0000 C CNN
+F 1 "ASSR-1218" H 8850 4734 50  0000 C CNN
+F 2 "SOP:SOP-4" H 8850 4733 50  0001 C CIN
+F 3 "" H 8800 4500 50  0000 L CNN
+F 4 "~" H 8850 4500 60  0001 C CNN "Fabricante"
+F 5 "~" H 8850 4500 60  0001 C CNN "Ref"
+F 6 "~" H 8850 4500 60  0001 C CNN "Potencia"
+F 7 "~" H 8850 4500 60  0001 C CNN "Tolerancia"
+F 8 "~" H 8850 4500 60  0001 C CNN "Provedor"
+F 9 "~" H 8850 4500 60  0001 C CNN "Ref_Proveedor"
+	1    8850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2300 9650 4400
+Wire Wire Line
+	9150 3150 9650 3150
+Wire Wire Line
+	9650 4400 9150 4400
+Connection ~ 9650 3150
+Wire Wire Line
+	9150 3350 10150 3350
+Wire Wire Line
+	9150 4600 10150 4600
+$Comp
+L R R46
+U 1 1 57843C5F
+P 8000 3150
+F 0 "R46" V 7793 3150 50  0000 C CNN
+F 1 "R" V 7884 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7930 3150 50  0001 C CNN
+F 3 "" H 8000 3150 50  0000 C CNN
+	1    8000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R47
+U 1 1 57843CEC
+P 8000 4400
+F 0 "R47" V 7793 4400 50  0000 C CNN
+F 1 "R" V 7884 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7930 4400 50  0001 C CNN
+F 3 "" H 8000 4400 50  0000 C CNN
+	1    8000 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4400 8550 4400
+Wire Wire Line
+	8550 3150 8150 3150
+Wire Wire Line
+	7450 3150 7850 3150
+Wire Wire Line
+	7450 4400 7850 4400
+Wire Wire Line
+	8450 3350 8450 5000
+Wire Wire Line
+	8450 3350 8550 3350
+Wire Wire Line
+	8550 4600 8450 4600
+Connection ~ 8450 4600
+$Comp
+L GND #PWR0100
+U 1 1 57843D7F
+P 8450 5000
+F 0 "#PWR0100" H 8450 4750 50  0001 C CNN
+F 1 "GND" H 8455 4827 50  0000 C CNN
+F 2 "" H 8450 5000 50  0000 C CNN
+F 3 "" H 8450 5000 50  0000 C CNN
+	1    8450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOM617A U9
+U 1 1 57843DBB
+P 3150 2650
+F 0 "U9" H 3150 3065 50  0000 C CNN
+F 1 "VOM617A" H 3150 2974 50  0000 C CNN
+F 2 "SOP:SOP-4" H 3150 2883 50  0000 C CIN
+F 3 "" H 3150 2550 50  0000 L CNN
+F 4 "773-0234" H 3100 2950 60  0001 C CNN "Rs"
+F 5 "VISHAY" H 3000 3150 60  0001 C CNN "Fabricante"
+F 6 "VOM617A-2X001T" H 3250 3050 60  0001 C CNN "Ref"
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOM617A U10
+U 1 1 57843E23
+P 3150 3800
+F 0 "U10" H 3150 4215 50  0000 C CNN
+F 1 "VOM617A" H 3150 4124 50  0000 C CNN
+F 2 "SOP:SOP-4" H 3150 4033 50  0000 C CIN
+F 3 "" H 3150 3700 50  0000 L CNN
+F 4 "773-0234" H 3100 4100 60  0001 C CNN "Rs"
+F 5 "VISHAY" H 3000 4300 60  0001 C CNN "Fabricante"
+F 6 "VOM617A-2X001T" H 3250 4200 60  0001 C CNN "Ref"
+	1    3150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOM617A U11
+U 1 1 57843E67
+P 3150 5000
+F 0 "U11" H 3150 5415 50  0000 C CNN
+F 1 "VOM617A" H 3150 5324 50  0000 C CNN
+F 2 "SOP:SOP-4" H 3150 5233 50  0000 C CIN
+F 3 "" H 3150 4900 50  0000 L CNN
+F 4 "773-0234" H 3100 5300 60  0001 C CNN "Rs"
+F 5 "VISHAY" H 3000 5500 60  0001 C CNN "Fabricante"
+F 6 "VOM617A-2X001T" H 3250 5400 60  0001 C CNN "Ref"
+	1    3150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 57843EB7
+P 2150 4900
+F 0 "R45" V 1943 4900 50  0000 C CNN
+F 1 "R" V 2034 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2080 4900 50  0001 C CNN
+F 3 "" H 2150 4900 50  0000 C CNN
+	1    2150 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R44
+U 1 1 57843F32
+P 2150 3700
+F 0 "R44" V 1943 3700 50  0000 C CNN
+F 1 "R" V 2034 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2080 3700 50  0001 C CNN
+F 3 "" H 2150 3700 50  0000 C CNN
+	1    2150 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R43
+U 1 1 57843F7B
+P 2150 2550
+F 0 "R43" V 1943 2550 50  0000 C CNN
+F 1 "R" V 2034 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2080 2550 50  0001 C CNN
+F 3 "" H 2150 2550 50  0000 C CNN
+	1    2150 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2550 2850 2550
+Wire Wire Line
+	2850 2750 2700 2750
+Wire Wire Line
+	2700 2750 2700 5400
+$Comp
+L GND #PWR0101
+U 1 1 5784404E
+P 2700 5400
+F 0 "#PWR0101" H 2700 5150 50  0001 C CNN
+F 1 "GND" H 2705 5227 50  0000 C CNN
+F 2 "" H 2700 5400 50  0000 C CNN
+F 3 "" H 2700 5400 50  0000 C CNN
+	1    2700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5100 2700 5100
+Connection ~ 2700 5100
+Wire Wire Line
+	2700 3900 2850 3900
+Connection ~ 2700 3900
+Wire Wire Line
+	2300 3700 2850 3700
+Wire Wire Line
+	2300 4900 2850 4900
+Wire Wire Line
+	3450 4900 3950 4900
+Wire Wire Line
+	3950 4900 3950 1800
+$Comp
+L +5V #PWR0102
+U 1 1 57844144
+P 3950 1800
+F 0 "#PWR0102" H 3950 1650 50  0001 C CNN
+F 1 "+5V" H 3965 1973 50  0000 C CNN
+F 2 "" H 3950 1800 50  0000 C CNN
+F 3 "" H 3950 1800 50  0000 C CNN
+	1    3950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2550 3950 2550
+Connection ~ 3950 2550
+Wire Wire Line
+	3450 3700 3950 3700
+Connection ~ 3950 3700
+Wire Wire Line
+	3450 2750 4300 2750
+Wire Wire Line
+	3450 3900 4300 3900
+Wire Wire Line
+	3450 5100 4300 5100
+$Comp
+L Jumper_NO_Small JP8
+U 1 1 57844432
+P 3150 2100
+F 0 "JP8" H 3150 2193 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3160 2040 50  0001 C CNN
+F 2 "Vias:JMP_0603" H 3150 2100 50  0001 C CNN
+F 3 "" H 3150 2100 50  0000 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2100 3600 2100
+Wire Wire Line
+	3600 2100 3600 2750
+Connection ~ 3600 2750
+Wire Wire Line
+	2500 2100 3050 2100
+Connection ~ 2750 2550
+$Comp
+L Jumper_NO_Small JP9
+U 1 1 5784467C
+P 3150 3200
+F 0 "JP9" H 3150 3293 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3160 3140 50  0001 C CNN
+F 2 "Vias:JMP_0603" H 3150 3200 50  0001 C CNN
+F 3 "" H 3150 3200 50  0000 C CNN
+	1    3150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP10
+U 1 1 578447A8
+P 3150 4450
+F 0 "JP10" H 3150 4543 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3160 4390 50  0001 C CNN
+F 2 "Vias:JMP_0603" H 3150 4450 50  0001 C CNN
+F 3 "" H 3150 4450 50  0000 C CNN
+	1    3150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4450 2500 4450
+Wire Wire Line
+	2500 4450 2500 4900
+Connection ~ 2500 4900
+Wire Wire Line
+	2500 3700 2500 3200
+Wire Wire Line
+	2500 3200 3050 3200
+Connection ~ 2500 3700
+Wire Wire Line
+	2500 2550 2500 2100
+Connection ~ 2500 2550
+Wire Wire Line
+	3250 3200 3600 3200
+Wire Wire Line
+	3600 3200 3600 3900
+Connection ~ 3600 3900
+Wire Wire Line
+	3250 4450 3600 4450
+Wire Wire Line
+	3600 4450 3600 5100
+Connection ~ 3600 5100
+Wire Wire Line
+	2000 4900 1600 4900
+Wire Wire Line
+	1600 3700 2000 3700
+Wire Wire Line
+	1600 2550 2000 2550
+$Comp
+L Jumper_NO_Small JP12
+U 1 1 57844F84
+P 8850 4000
+F 0 "JP12" H 8850 4093 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8860 3940 50  0001 C CNN
+F 2 "Vias:JMP_0603" H 8850 4000 50  0001 C CNN
+F 3 "" H 8850 4000 50  0000 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP11
+U 1 1 57844FF3
+P 8850 2750
+F 0 "JP11" H 8850 2843 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8860 2690 50  0001 C CNN
+F 2 "Vias:JMP_0603" H 8850 2750 50  0001 C CNN
+F 3 "" H 8850 2750 50  0000 C CNN
+	1    8850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2750 8250 2750
+Wire Wire Line
+	8250 2750 8250 3150
+Connection ~ 8250 3150
+$Comp
+L +24V #PWR0103
+U 1 1 57845312
+P 9650 2300
+F 0 "#PWR0103" H 9650 2150 50  0001 C CNN
+F 1 "+24V" H 9665 2473 50  0000 C CNN
+F 2 "" H 9650 2300 50  0000 C CNN
+F 3 "" H 9650 2300 50  0000 C CNN
+	1    9650 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2750 9400 2750
+Wire Wire Line
+	9400 2750 9400 3350
+Connection ~ 9400 3350
+Wire Wire Line
+	8950 4000 9400 4000
+Wire Wire Line
+	9400 4000 9400 4600
+Connection ~ 9400 4600
+Wire Wire Line
+	8750 4000 8250 4000
+Wire Wire Line
+	8250 4000 8250 4400
+Connection ~ 8250 4400
+Text GLabel 1600 2550 0    60   Input ~ 0
+DI1
+Text GLabel 1600 3700 0    60   Input ~ 0
+DI2
+Text GLabel 1600 4900 0    60   Input ~ 0
+DI3
+Text GLabel 4300 2750 2    60   Output ~ 0
+uC_DI1
+Text GLabel 4300 3900 2    60   Output ~ 0
+uC_DI2
+Text GLabel 4300 5100 2    60   Output ~ 0
+uC_DI3
+Text GLabel 7450 4400 0    60   Input ~ 0
+uC_DO2
+Text GLabel 7450 3150 0    60   Input ~ 0
+uC_DO1
+Text GLabel 10150 3350 2    60   Output ~ 0
+DO1
+Text GLabel 10150 4600 2    60   Output ~ 0
+DO2
+$EndSCHEMATC

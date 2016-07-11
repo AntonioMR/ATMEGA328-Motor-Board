@@ -37,12 +37,13 @@ LIBS:MotorDrivers
 LIBS:connector
 LIBS:Opamp
 LIBS:Traco
+LIBS:Optoacoplados
 LIBS:ATMEGA328_Motor_Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
