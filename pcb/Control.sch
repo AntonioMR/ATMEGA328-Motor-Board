@@ -904,23 +904,7 @@ Text GLabel 4250 2650 2    60   Output ~ 0
 ENC1_B2
 Text GLabel 4250 2750 2    60   Output ~ 0
 ENC2_B2
-$Comp
-L Pulsador_4p SW1
-U 1 1 576FB09C
-P 1200 1850
-F 0 "SW1" H 1200 2105 50  0000 C CNN
-F 1 "Pulsador_4p" H 1200 2014 50  0000 C CNN
-F 2 "Relays_and_Contacts:ALP_SKQGAKE010" H 1200 1850 50  0001 C CNN
-F 3 "" H 1200 1850 50  0000 C CNN
-	1    1200 1850
-	1    0    0    -1  
-$EndComp
 Connection ~ 1650 1850
-Wire Wire Line
-	1500 1900 1550 1900
-Wire Wire Line
-	1550 1900 1550 1850
-Connection ~ 1550 1850
 Wire Wire Line
 	900  1850 700  1850
 Wire Wire Line
@@ -936,11 +920,6 @@ F 3 "" H 700 2100 50  0000 C CNN
 	1    700  2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  1900 850  1900
-Wire Wire Line
-	850  1900 850  1850
-Connection ~ 850  1850
 $Comp
 L CP C1
 U 1 1 576F1CB0
@@ -1012,4 +991,21 @@ Wire Wire Line
 	4250 3250 3950 3250
 Wire Wire Line
 	3950 3350 4250 3350
+$Comp
+L Pulsador_2p SW1
+U 1 1 578A2160
+P 1200 1850
+F 0 "SW1" H 1200 2105 50  0000 C CNN
+F 1 "Pulsador_2p" H 1200 2014 50  0000 C CNN
+F 2 "Relays_and_Contacts:CANAL_ELECTRONIC_DTSM-31N-B" H 1200 1850 50  0001 C CNN
+F 3 "" H 1200 1850 50  0000 C CNN
+F 4 "CANAL ELECTRONIC" H 1200 1850 60  0001 C CNN "Fabricante"
+F 5 "DTSM31NB" H 1200 1850 60  0001 C CNN "Ref"
+F 6 "~" H 1200 1850 60  0001 C CNN "Potencia"
+F 7 "~" H 1200 1850 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 1200 1850 60  0001 C CNN "Provedor"
+F 9 "DTSM-31N-B" H 1200 1850 60  0001 C CNN "Ref_Proveedor"
+	1    1200 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
