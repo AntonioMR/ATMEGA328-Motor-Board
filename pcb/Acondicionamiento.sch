@@ -1189,7 +1189,6 @@ $EndComp
 Connection ~ 9000 5250
 Connection ~ 1500 5900
 Connection ~ 6550 5250
-Connection ~ 2350 3500
 $Comp
 L C C34
 U 1 1 577B0FFF

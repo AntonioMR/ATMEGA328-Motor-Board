@@ -1,4 +1,5 @@
 datasheets/
+*.rpt
 *bak
 *erc
 *~
