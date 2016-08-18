@@ -1,4 +1,4 @@
-update=lun 11 jul 2016 23:21:19 CEST
+update=jue 18 ago 2016 02:42:15 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -68,3 +66,5 @@ LibName36=/home/amr/Documentos/KiCad/kicad-libraries/connector
 LibName37=/home/amr/Documentos/KiCad/kicad-libraries/Opamp
 LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Traco
 LibName39=/home/amr/Documentos/KiCad/kicad-libraries/Optoacoplados
+[general]
+version=1
