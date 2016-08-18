@@ -694,9 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 5550 4000 5550
 Wire Wire Line
-	3200 5700 4000 5700
-Text Label 3200 5700 2    60   ~ 0
-PWM_OE
+	3100 5700 4000 5700
 Text Label 3200 5550 2    60   ~ 0
 SCL
 Text Label 3200 5450 2    60   ~ 0
@@ -755,23 +753,20 @@ $EndComp
 $Comp
 L R R4
 U 1 1 576F3B45
-P 3850 5150
-F 0 "R4" H 3920 5196 50  0000 L CNN
-F 1 "10K" H 3920 5105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 3780 5150 50  0001 C CNN
-F 3 "" H 3850 5150 50  0000 C CNN
-F 4 "vishay" H 1800 3700 60  0001 C CNN "Fabricante"
-F 5 "CRCW080510K0FKEA" H 1800 3700 60  0001 C CNN "Ref"
-F 6 "0.125W" H 1800 3700 60  0001 C CNN "Potencia"
-F 7 "1%" H 1800 3700 60  0001 C CNN "Tolerancia"
-F 8 "tme" H 1800 3700 60  0001 C CNN "Provedor"
-F 9 "CRCW080510K0FKEA" H 1800 3700 60  0001 C CNN "Ref_Proveedor"
-	1    3850 5150
+P 3100 5950
+F 0 "R4" H 3170 5996 50  0000 L CNN
+F 1 "10K" H 3170 5905 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 3030 5950 50  0001 C CNN
+F 3 "" H 3100 5950 50  0000 C CNN
+F 4 "vishay" H 1050 4500 60  0001 C CNN "Fabricante"
+F 5 "CRCW080510K0FKEA" H 1050 4500 60  0001 C CNN "Ref"
+F 6 "0.125W" H 1050 4500 60  0001 C CNN "Potencia"
+F 7 "1%" H 1050 4500 60  0001 C CNN "Tolerancia"
+F 8 "tme" H 1050 4500 60  0001 C CNN "Provedor"
+F 9 "CRCW080510K0FKEA" H 1050 4500 60  0001 C CNN "Ref_Proveedor"
+	1    3100 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 5300 3850 5700
-Connection ~ 3850 5700
 Wire Wire Line
 	3600 5550 3600 5300
 Connection ~ 3600 5550
@@ -780,24 +775,19 @@ Wire Wire Line
 Connection ~ 3350 5450
 Wire Wire Line
 	3350 5000 3350 4850
-Wire Wire Line
-	3350 4850 3850 4850
-Wire Wire Line
-	3850 4700 3850 5000
-Connection ~ 3850 4850
 $Comp
 L +5V #PWR013
 U 1 1 576F3E7D
-P 3850 4700
-F 0 "#PWR013" H 3850 4550 50  0001 C CNN
-F 1 "+5V" H 3865 4873 50  0000 C CNN
-F 2 "" H 3850 4700 50  0000 C CNN
-F 3 "" H 3850 4700 50  0000 C CNN
-	1    3850 4700
+P 3600 4700
+F 0 "#PWR013" H 3600 4550 50  0001 C CNN
+F 1 "+5V" H 3615 4873 50  0000 C CNN
+F 2 "" H 3600 4700 50  0000 C CNN
+F 3 "" H 3600 4700 50  0000 C CNN
+	1    3600 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4850 3600 5000
+	3600 4700 3600 5000
 Connection ~ 3600 4850
 $Comp
 L C C4
@@ -867,27 +857,14 @@ F 3 "" H 3600 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6050 3600 6950
-Wire Wire Line
-	3600 6950 4000 6950
-Wire Wire Line
-	4000 6750 3600 6750
-Connection ~ 3600 6750
-Wire Wire Line
-	3600 6550 4000 6550
-Connection ~ 3600 6550
-Wire Wire Line
 	4000 6300 3800 6300
 Connection ~ 3800 7100
 Wire Wire Line
-	3800 6850 4000 6850
-Connection ~ 3800 6850
+	3600 6850 4000 6850
 Wire Wire Line
-	4000 6650 3800 6650
-Connection ~ 3800 6650
+	3600 6650 4000 6650
 Wire Wire Line
-	3800 6450 4000 6450
-Connection ~ 3800 6450
+	3600 6450 4000 6450
 Text GLabel 4550 2450 2    60   Output ~ 0
 ENC1_A2
 Text GLabel 4550 2550 2    60   Output ~ 0
@@ -2932,4 +2909,34 @@ Text Notes 9300 6250 0    60   ~ 0
 Driver 2 \nStatus
 Text Notes 8800 6250 0    60   ~ 0
 Driver 1 \nStatus
+Wire Wire Line
+	3350 4850 3600 4850
+Wire Wire Line
+	3100 5700 3100 5800
+Wire Wire Line
+	3100 6100 3100 6300
+$Comp
+L GND #PWR021
+U 1 1 57B61664
+P 3100 6300
+F 0 "#PWR021" H 3100 6050 50  0001 C CNN
+F 1 "GND" H 3105 6127 50  0000 C CNN
+F 2 "" H 3100 6300 50  0000 C CNN
+F 3 "" H 3100 6300 50  0000 C CNN
+	1    3100 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 6450
+Connection ~ 3600 6650
+Wire Wire Line
+	3800 6750 4000 6750
+Connection ~ 3800 6750
+Wire Wire Line
+	4000 6550 3800 6550
+Connection ~ 3800 6550
+Wire Wire Line
+	3600 6850 3600 6050
+Wire Wire Line
+	4000 6950 3800 6950
+Connection ~ 3800 6950
 $EndSCHEMATC
