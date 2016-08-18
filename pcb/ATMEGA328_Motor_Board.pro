@@ -1,4 +1,4 @@
-update=jue 18 ago 2016 17:34:13 CEST
+update=jue 18 ago 2016 17:41:43 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,14 @@ LibName38=/home/amr/Documentos/KiCad/kicad-libraries/Traco
 LibName39=/home/amr/Documentos/KiCad/kicad-libraries/Optoacoplados
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
