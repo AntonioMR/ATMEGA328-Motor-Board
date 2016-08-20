@@ -49,7 +49,7 @@ Date "2016-08-18"
 Rev "V.0.1"
 Comp "ATMEGA328-Motor-Board"
 Comment1 ""
-Comment2 "Creada por Antonio Moraes"
+Comment2 "Creada por Antonio Morales"
 Comment3 "Documentación en https://github.com/AntonioMR/ATMEGA328-Motor-Board"
 Comment4 "ATMEGA328-Motor-Board"
 $EndDescr
