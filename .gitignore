@@ -1,5 +1,5 @@
 datasheets/
-pcb/gerber/seed/
+pcb/gerber/seed
 *.rpt
 *bak
 *erc
