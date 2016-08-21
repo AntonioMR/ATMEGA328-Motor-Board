@@ -32,6 +32,7 @@
 
 
 Pca9685::Pca9685(){
+  Serial.begin(115200);
   Serial.println(F("Intializing ..."));
   Serial.print("I2C delay counter: ");
   Serial.println(I2C_DELAY_COUNTER);
@@ -160,64 +161,55 @@ bool Pca9685::Send(uint8_t motor,int value){
 
   }
 
-  if (i2c_start(PCA9685_I2C_ADDRESS | I2C_WRITE));
-  else {
+  if (!i2c_start(PCA9685_I2C_ADDRESS | I2C_WRITE)){
     Serial.println("Error sending pwm value");
     i2c_stop();
     return 0;
   }
 
-  if (i2c_write(_Led_ON_H));
-  else {
+  if (!i2c_write(_Led_ON_H)){
     Serial.println("Error sending LED_ON_H pwm value");
     i2c_stop();
     return 0;
   }
-  if (i2c_write(0x00));
-  else {
+  if (!i2c_write(0x00)){
     Serial.println("Error sending LED_ON_H pwm value");
     i2c_stop();
     return 0;
   }
 
-  if (i2c_write(_Led_ON_L));
-  else {
+  if (!i2c_write(_Led_ON_L)){
     Serial.println("Error sending LED_ON_L pwm value");
     i2c_stop();
     return 0;
   }
-  if (i2c_write(0x00));
-  else {
+  if (!i2c_write(0x00)){
     Serial.println("Error sending LED_ON_L pwm value");
     i2c_stop();
     return 0;
   }
 
-  if (i2c_write(_Led_OFF_H));
-  else {
+  if (!i2c_write(_Led_OFF_H)){
     Serial.println("Error sending LED_OFF_H pwm value");
     i2c_stop();
     return 0;
   }
-  if (i2c_write(0x00));
-  else {
+  if (!i2c_write(0x00)){
     Serial.println("Error sending LED_OFF_H pwm value");
     i2c_stop();
     return 0;
   }
 
-  if (i2c_write(_Led_OFF_L));
-  else {
+  if (!i2c_write(_Led_OFF_L)){
     Serial.println("Error sending LED_OFF_L pwm value");
     i2c_stop();
     return 0;
   }
-  if (i2c_write(0x00))
-    i2c_stop();
-  else {
+  if (!i2c_write(0x00)){
     Serial.println("Error sending LED_OFF_L pwm value");
     i2c_stop();
     return 0;
   }
+  i2c_stop();
   return 1;
 }

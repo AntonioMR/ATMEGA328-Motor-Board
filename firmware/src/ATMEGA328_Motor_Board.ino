@@ -18,13 +18,26 @@
  */
 
 #include <Arduino.h>
+#include "configuration.h"
 #include "pca9685.h"
+
+#if defined(Encoder1) || defined(Encoder2)
+  #include "encoder.h"
+#endif
+
 Pca9685 Pwm_Driver = Pca9685();
 
 void setup(void){
-  Serial.begin(115200);
 
+  #ifdef Encoder1
+    pinMode(4, INPUT);
+    attachInterrupt(0, Encoder1_ISR, RISING);
+  #endif
 
+  #ifdef Encoder2
+    pinMode(5, INPUT);
+    attachInterrupt(1, Encoder2_ISR, RISING);
+  #endif
 }
 
 void loop(void){
